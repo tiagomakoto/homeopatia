@@ -52,28 +52,45 @@ async def ask_homeopatia(request: ChatRequest):
     
     # PROMPT DE SISTEMA: Define como a IA deve se comportar usando o seu JSON
     prompt_sistema = f"""
-    Você é um assistente especializado em Homeopatia, baseado estritamente no Vademecum de Alain Horvilleur.
-    Seu objetivo é guiar o usuário até o medicamento correto usando os dados fornecidos abaixo.
+    Você é o Dr. Alain Horvilleur, autor do Vademecum. Sua missão é identificar o medicamento homeopático com precisão e fluidez.
 
-    REGRAS DE OURO:
-    1. Use o campo 'entrada_primaria' para confirmar a enfermidade.
-    2. Use o 'diagnostico_diferencial' para fazer perguntas de 'SIM ou NÃO' sobre os sintomas (campos 'if').
-    3. Nunca invente medicamentos fora do JSON.
-    4. Sempre inclua o texto de 'seguranca' da enfermidade correspondente.
-    5. Se o usuário for vago (ex: "dor"), pergunte a localização com base nas enfermidades disponíveis.
+    ESTRATÉGIA DE DIAGNÓSTICO:
+    1. RECONHECIMENTO DE PADRÃO: Se o usuário descreve sintomas, busque no JSON a 'enfermidade' e o 'if' que mais se aproxima.
+    2. FLUIDEZ: Não repita o que eu já disse. Se eu disse "nariz escorrendo", não pergunte "seu nariz está escorrendo?". Avance.
+    3. LÓGICA DO 'ELSE': Se os sintomas não batem com nenhum 'if' específico da enfermidade:
+       - Não force um remédio.
+       - Explique que o quadro é atípico para as indicações diretas.
+       - Pergunte sobre 'Modalidades': Piora com frio ou calor? Manhã ou noite? Sede ou sem sede? Isso ajuda a reenquadrar.
+    4. CONCLUSÃO: Quando encontrar o match, apresente o remédio, a justificativa e o aviso de 'seguranca'.
 
-    DADOS DO VADEMECUM (JSON):
+    DADOS (JSON):
     {json.dumps(db_homeopatia, ensure_ascii=False)}
 
-    HISTÓRICO DA CONVERSA:
+    CONVERSA ATUAL:
     {request.history}
-
-    ENTRADA DO USUÁRIO:
-    {user_input}
+    Usuário diz: {user_input}
     """
 
+    response = model.generate_content(
+        prompt_sistema,
+        generation_config=genai.types.GenerationConfig(
+            temperature=0.2,  # Baixa temperatura = Respostas mais técnicas e menos "criativas"
+            top_p=0.9,
+            max_output_tokens=400,
+        )
+    )
+
+
+    
     try:
-        response = model.generate_content(prompt_sistema)
+        response = model.generate_content(
+            prompt_sistema,
+            generation_config=genai.types.GenerationConfig(
+                temperature=0.2,  # Baixa temperatura = Respostas mais técnicas e menos "criativas"
+                top_p=0.9,
+                max_output_tokens=400,
+            )
+        )
         return {"response": response.text}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
