@@ -4,10 +4,15 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import google.generativeai as genai
 from fastapi.middleware.cors import CORSMiddleware
+from pathlib import Path
 
 
+# Define a base como o diretório onde o main.py está
+BASE_DIR = Path(__file__).resolve().parent
+DATA_FILE = BASE_DIR / "624624112-Homeopatia.json"
 
-
+if not DATA_FILE.exists():
+    print(f"Erro Crítico: O arquivo {DATA_FILE} não foi encontrado no repositório.")
 
 # SEGURANÇA: O código busca a chave nas configurações do servidor
 GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
@@ -31,7 +36,7 @@ app.add_middleware(
 
 # Carregar o banco de dados JSON (o arquivo que você me enviou)
 def load_db():
-    with open('624624112-Homeopatia.json', 'r', encoding='utf-16') as f:
+    with open(DATA_FILE, 'r', encoding='utf-16') as f:
         return json.load(f)
 
 db_homeopatia = load_db()
