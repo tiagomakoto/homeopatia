@@ -31,6 +31,7 @@ app.add_middleware(
     allow_origins=["*"], # Depois você pode trocar pelo seu domínio oficial
     allow_methods=["*"],
     allow_headers=["*"],
+    allow_credentials=True,
 )
 
 
