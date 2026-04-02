@@ -3,6 +3,10 @@ import json
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import google.generativeai as genai
+from fastapi.middleware.cors import CORSMiddleware
+
+
+
 
 
 # SEGURANÇA: O código busca a chave nas configurações do servidor
@@ -15,6 +19,15 @@ genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-2.5-flash')
 
 app = FastAPI()
+
+# Permitir que seu site na HostGator acesse o backend no Render
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"], # Depois você pode trocar pelo seu domínio oficial
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 # Carregar o banco de dados JSON (o arquivo que você me enviou)
 def load_db():
