@@ -1,0 +1,1642 @@
+[
+  {
+    "enfermidade": "Abcesso",
+    "entrada_primaria": "Coleção purulenta localizada no interior de um tecido, resultante de uma inflamação. Apresenta-se como tumefação flutuante circundada por eritema.",
+    "seguranca": "A homeopatia não tem ação sobre lesões orgânicas, a menos que sejam reversíveis; o tratamento é proposto a título de complemento da alopatia. Baixas dinamizações (5 a 9 CH) são excitadoras (facilitam a evacuação) e altas (12 a 30 CH) são frenadoras (impedem a supuração).",
+    "diagnostico_diferencial": [
+      { "if": "Primeira fase (pré-pus) AND pele inchada e rosada AND dores picantes AND melhora com compressas frias", "then": "Apis mellifica" },
+      { "if": "Primeira fase (pré-pus) AND pele inchada, vermelha e quente AND dores latejantes", "then": "Belladonna" },
+      { "if": "Dores picantes agravadas ao toque AND sensibilidade a correntes de ar AND supuração fétida AND presença de Staphylococcus aureus", "then": "Hepar sulfuris calcareum" },
+      { "if": "Aspecto violáceo AND sensível ao toque AND supuração misturada com sangue", "then": "Lachesis mutus" },
+      { "if": "Presença de adenopatia satélite", "then": "Mercurius solubilis" },
+      { "if": "Sensação de queimação AND dissociação entre pulso e temperatura AND local endurecido", "then": "Pyrogenium" },
+      { "if": "Abcesso demorado ou crônico AND infiltração em torno AND presença de farpa ou esquírola óssea AND tendência à fístula", "then": "Silicea" },
+      { "if": "Acompanhado de linfangite AND induração do tecido celular intersticial AND dores em queimação", "then": "Anthracinum" },
+      { "if": "Abcesso já aberto AND cura lenta AND produção contínua de pus amarelo ou sanguinolento", "then": "Calcarea sulfurica" },
+      { "if": "Necessidade de facilitar a abertura do abcesso (o 'bisturi homeopático')", "then": "Myristica sebifera" }
+    ]
+  },
+  {
+    "enfermidade": "Abcesso Dentário",
+    "entrada_primaria": "Supuração aguda ou crônica por infecção da polpa dentária, geralmente resultante de cárie.",
+    "seguranca": "Pode evoluir para edema da face, fístula gengival, celulite, febre e osteíte.",
+    "diagnostico_diferencial": [
+      { "if": "Fase inflamatória pré-supurativa AND vermelhidão AND dores latejantes", "then": "Belladonna" },
+      { "if": "Abcesso em formação ou constituído AND gengivas inchadas e sangrantes AND doloridas ao toque AND melhora pelo calor", "then": "Hepar sulfuris calcareum" },
+      { "if": "Fluxão dentária com bochecha inchada AND gengivas esponjosas e retraídas AND dores irradiadas à bochecha ou ouvido AND hálito fétido AND hipersialorréia AND língua com marcas dos dentes AND melhora por massagem na bochecha", "then": "Mercurius solubilis" },
+      { "if": "Associado à septicemia AND dissociação entre pulso e temperatura", "then": "Pyrogenium" },
+      { "if": "Abcesso de raiz com fístula gengival AND associação com osteíte AND abcesso de repetição", "then": "Silicea" },
+      { "if": "Abcesso recidivante AND fístula gengival AND sensação de dentes moles AND dificuldade de elocução", "then": "Causticum" },
+      { "if": "Abcesso de raiz por dente cariado AND hipersensibilidade dos dentes à pressão", "then": "Hekla lava" }
+    ]
+  },
+  {
+    "enfermidade": "Abcesso do Seio",
+    "entrada_primaria": "Coleção purulenta do seio na mulher que amamenta, ligada à oclusão de canal galactóforo.",
+    "seguranca": "Afecção rara. Incisão, drenagem e antibioticoterapia estão indicadas junto à homeopatia. Passar a antibióticos em caso de sinais gerais como febre importante.",
+    "diagnostico_diferencial": [
+      { "if": "Início do abcesso AND aspecto rosado AND edema importante AND dores picantes AND febre SEM sede", "then": "Apis mellifica" },
+      { "if": "Início do abcesso AND pele vermelha AND calor radiante percebido à distância AND dores latejantes agravadas por abalos AND febre elevada COM sede", "then": "Belladonna" },
+      { "if": "Início do abcesso AND seio endurecido, quente, pesado, dolorido e pálido", "then": "Bryonia alba" },
+      { "if": "Sensação de picadas agravadas ao toque AND pus irritante AND útil em todas as fases para impedir supuração (30 CH) ou facilitar evacuação (5 CH)", "then": "Hepar sulfuris calcareum" },
+      { "if": "Aspecto violáceo AND hipersensibilidade ao toque", "then": "Lachesis mutus" },
+      { "if": "Abcesso com ulceração e adenopatias AND salivação abundante AND febre com predominância noturna", "then": "Mercurius solubilis" },
+      { "if": "Início sob forma de nódulo doloroso AND dores latejantes irradiadas para membro superior AND dores nos mamilos irradiadas para todo o corpo", "then": "Phytolacca decandra" },
+      { "if": "Associação à linfangite", "then": "Bufo rana" },
+      { "if": "Fissuras nos mamilos AND aréolas vermelhas AND dores ao toque ou pressão das roupas", "then": "Castor equi" },
+      { "if": "Dores que vão do mamilo às costas quando a criança mama", "then": "Croton tiglium" },
+      { "if": "Induração de cicatriz antiga ou ameaça de reaparecimento em velha cicatriz", "then": "Graphites" },
+      { "if": "Dores nos canais galactóforos entre as mamadas", "then": "Phellandrium aquaticum" },
+      { "if": "Calor nas palmas das mãos", "then": "Phosphorus" },
+      { "if": "Abcesso com fístula", "then": "Silicea" },
+      { "if": "Utilizado para terminar de esvaziar o abcesso", "then": "Sulfur" }
+    ]
+  },
+  {
+    "enfermidade": "Aborto Espontâneo",
+    "entrada_primaria": "Interrupção da gestação antes de 28 semanas. Diagnóstico por metrorragias e contrações uterinas.",
+    "seguranca": "Homeopatia age em sintomas funcionais. Complicações infecciosas são possíveis. Em casos de repetição, pesquisar causas anatômicas, genéticas ou metabólicas.",
+    "diagnostico_diferencial": [
+      { "if": "Ameaça após queda ou choque nervoso AND dores musculares de 'corpo moído' AND medo de ser tocada AND aversão ao contato com o leito", "then": "Arnica montana" },
+      { "if": "Espasmos do colo uterino AND atonia do corpo do útero AND dores de parto sem contrações efetivas AND hemorragia passiva", "then": "Caulophyllum thalictroides" },
+      { "if": "Ameaça após má notícia ou susto AND face vermelha escura AND desejo de ser deixada em paz", "then": "Gelsemium sempervirens" },
+      { "if": "Acompanhado de lombalgia, astenia e tendência a transpirar", "then": "Kalium carbonicum" },
+      { "if": "Útero subdesenvolvido onde o feto cresce mais rápido que as fibras musculares", "then": "Plumbum metallicum" },
+      { "if": "Hemorragia intermitente AND dores com características variáveis", "then": "Pulsatilla" },
+      { "if": "Dores lombossacrais irradiadas ao púbis AND aborto no terceiro mês AND sangue vermelho vivo, fluido com coágulos AND agravamento ao menor movimento", "then": "Sabina" },
+      { "if": "Ameaça em seguida a um susto", "then": "Aconitum napellus" },
+      { "if": "Dores que vão de um lado a outro do abdômen", "then": "Actaea racemosa" },
+      { "if": "Dores tipo picada na região dos ovários", "then": "Apis mellifica" },
+      { "if": "Hemorragia de sangue quente AND tenesmo uterino AND agravamento por abalos", "then": "Belladonna" },
+      { "if": "Hemorragia de sangue escuro", "then": "Secale cornutum" },
+      { "if": "Congestão uterina AND sensação de peso (prolapso) AND ondas de calor AND face pálida com olheiras", "then": "Sepia officinalis" },
+      { "if": "Hemorragia por atonia uterina AND sangue escuro e filamentoso", "then": "Ustilago maidis" },
+      { "if": "Dores espasmódicas violentas irradiadas para os membros inferiores", "then": "Viburnum opulus" }
+    ]
+  },
+  {
+    "enfermidade": "Acidente Isquêmico Transitório (AIT)",
+    "entrada_primaria": "Episódio neurológico focal e temporário de natureza isquêmica, instalação brutal, duração inferior a 24 horas e regressão completa.",
+    "seguranca": "Homeopatia age melhor na fase funcional (AIT) do que na lesional (AVC). O manejo adequado do AIT visa evitar um AVC futuro. Fatores como hipertensão e diabetes devem ser monitorados.",
+    "diagnostico_diferencial": [
+      { "if": "Agitação e ansiedade com medo da morte AND cefaléia intensa com peso na fronte AND pulso cheio, duro e tenso AND crise de hipertensão", "then": "Aconitum napellus" },
+      { "if": "Hiperemia cerebral AND cefaléia pulsante AND batimento das carótidas AND rosto vermelho AND midríase AND olhar fixo AND agravamento por abalos", "then": "Belladonna" },
+      { "if": "Desorientação (não reconhece ambiente familiar) AND cefaléia pulsante AND olhos injetados AND agravamento pelo calor", "then": "Glonoimum" },
+      { "if": "Congestão dos vasos cerebrais AND estupefação dos centros nervosos AND lentificação da respiração/coração AND preventivo sistemático pós-AIT", "then": "Opium" },
+      { "if": "Ocorrência por ocasião de esforço violento em paciente hipertenso", "then": "Arnica montana" },
+      { "if": "Sensação de queimação na cabeça (envolvida por ar quente) AND medo de AVC AND agravamento à noite", "then": "Asterias rubens" },
+      { "if": "Superexcitação do espírito AND loquacidade", "then": "Coffea cruda" },
+      { "if": "Ondas vasomotoras (rosto vermelho ao esforço) AND grande frialdade objetiva AND melhora por bandagens quentes", "then": "Strontium carbonicum" },
+      { "if": "Congestão repentina na base do cérebro AND ameaça de coma AND dor occipital AND face lívida (violácea) AND olhos injetados AND náuseas/vômitos", "then": "Veratrum viride" }
+    ]
+  },
+  {
+    "enfermidade": "Acidente Vascular Cerebral (AVC)",
+    "entrada_primaria": "Lesão orgânica neurológica (trombose, embolia ou hemorragia) com sintomas persistentes por mais de 24 horas, como hemiplegia e distúrbios da fala.",
+    "seguranca": "Lesão orgânica grave. A homeopatia é proposta como complemento da alopatia. A anatomopatologia e fisiopatologia orientam a escolha medicamentosa aqui.",
+    "diagnostico_diferencial": [
+      { "if": "Ocorrência por esforço violento ou emoção forte AND inconsciência AND pulso cheio e duro AND evacuação involuntária de fezes/urina AND facilita reabsorção de hemorragia", "then": "Arnica montana" },
+      { "if": "Fase aguda AND cefaléia pulsante AND rosto vermelho AND batimento carótidas AND midríase AND agravamento por abalos", "then": "Belladonna" },
+      { "if": "Distúrbios crônicos da fala pós-AVC AND paralisia facial AND transtornos esfincterianos AND depressão com choro fácil", "then": "Causticum" },
+      { "if": "Estado de estupor ou coma AND rosto vermelho escuro AND transpiração quente AND respiração estertorosa AND miose", "then": "Opium" },
+      { "if": "Congestão repentina (base do cérebro) AND hipertensão com pulso lento AND face lívida (violácea) AND fácies hipocrático AND náuseas violentas", "then": "Veratrum viride" },
+      { "if": "Agitação e angústia com medo da morte AND rosto vermelho escuro AND pulso cheio e duro", "then": "Aconitum napellus" },
+      { "if": "Perda repentina de memória pós-AVC AND irritabilidade com linguagem grosseira", "then": "Anacardium orientale" },
+      { "if": "Prescrito com a noção de edema cerebral", "then": "Apis mellifica" },
+      { "if": "Seqüelas de hemiplegia em paciente ateroesclerosado e senil AND perda de memória AND comportamento pueril", "then": "Baryta carbonica" },
+      { "if": "Hemiplegia com afasia AND esquece ou troca palavras AND visão perturbada agravada pelo sol", "then": "Bothrops lanceolatus" },
+      { "if": "Lado Direito: Hemiplegia AND alucinações auditivas AND elocução laboriosa por lentidão da língua", "then": "Crotalus casca vella" },
+      { "if": "Lado Direito: Hemiplegia AND trismo AND afasia (elocução incoerente) AND erros de cálculo AND aversão à família", "then": "Crotalus horridus" },
+      { "if": "Lado Esquerdo: Hemiplegia AND cianose violácea das bochechas AND paciente dependente de álcool", "then": "Lachesis mutus" },
+      { "if": "Seqüelas de hemiplegia AND congestão cefálica ao esforço AND melhora por bandagens quentes", "then": "Strontium carbonicum" }
+    ]
+  },
+  {
+    "enfermidade": "Acne",
+    "entrada_primaria": "Afecção inflamatória dos folículos pilossebáceos do rosto e do tronco, comum na adolescência. Apresenta-se como cravos, pápulas, pústulas, microcistos e cicatrizes.",
+    "seguranca": "Diferenciar da rosácea. Em casos renitentes, deve-se considerar o medicamento de fundo para cobertura global do quadro do paciente.",
+    "diagnostico_diferencial": [
+      { "if": "Erupção pustulosa que deixa marcas azuladas", "then": "Antimonium tartaricum" },
+      { "if": "Cravos AND pápulas endurecidas e inflamatórias AND dores na região circunvizinha AND agravamento durante a menstruação", "then": "Eugenia jambosa" },
+      { "if": "Acne pustulosa AND sensibilidade ao toque", "then": "Hepar sulfuris calcareum" },
+      { "if": "Pústulas no rosto, peito ou espáduas AND adolescente agitado em movimento constante", "then": "Kalium bromatum" },
+      { "if": "Pessoa reservada AND alopecia frontal precoce AND pele do rosto gordurosa AND localização no limite do couro cabeludo", "then": "Natrum muriaticum" },
+      { "if": "Vesículas circundadas por aréola vermelha", "then": "Rhus toxicodendron" },
+      { "if": "Cravos em pele gordurosa", "then": "Selenium metallicum" },
+      { "if": "Pessoa pálida com olheiras AND transpiração emotiva importante AND localização em torno da boca AND agravamento antes da menstruação", "then": "Sepia officinalis" },
+      { "if": "Pápulas ou cistos que supuram AND cicatrizes dolorosas ao toque AND transpiração fétida dos pés", "then": "Silicea" },
+      { "if": "Acne devida ao uso de cosméticos", "then": "Bovista gigantea" },
+      { "if": "Acne com cianose do rosto", "then": "Carbo vegetabilis" },
+      { "if": "Acne queloidiana", "then": "Graphites" },
+      { "if": "Pápulas de aspecto azulado ou violáceo AND hipersensibilidade ao toque", "then": "Lachesis mutus" },
+      { "if": "Mocinha emotiva que ruboriza facilmente AND choro fácil AND retardo na menarca", "then": "Pulsatilla" },
+      { "if": "Acne dolorosa AND numerosos cravos AND vermelhidão da pele AND pele malsã", "then": "Sulfur" },
+      { "if": "Acne renitente (alternativa ao Sulfur para evitar agravamento)", "then": "Sulfur iodatum" }
+    ]
+  },
+  {
+    "enfermidade": "Acrocianose",
+    "entrada_primaria": "Síndrome vascular permanente ou semi-permanente caracterizada por coloração vermelho escura ou cianótica das extremidades, com dedos tumefactos e frios.",
+    "seguranca": "Trata-se de um espasmo dos vasos cutâneos de pequeno calibre. Não há tratamento alopático específico disponível.",
+    "diagnostico_diferencial": [
+      { "if": "Extremidades vermelhas AND sensação de agulhas de gelo AND formigamentos (como geladuras)", "then": "Agaricus muscarius" },
+      { "if": "Extremidades azuis AND cianose por hipoxia AND dormência do membro sobre o qual se deita AND transpiração dos dedos", "then": "Carbo vegetabilis" },
+      { "if": "Extremidades arroxeadas AND hipersensibilidade ao toque (não suporta ser tocado)", "then": "Lachesis mutus" },
+      { "if": "Extremidades rosadas AND dores erráticas (mudam de articulação) AND agravamento pelo calor", "then": "Pulsatilla" },
+      { "if": "Distensão das veias das mãos AND associação com cardiopatia e hipocratismo digital", "then": "Laurocerasus" },
+      { "if": "Frialdade das extremidades AND agravamento pelo calor AND dedos rígidos e afastados AND risco de gangrena", "then": "Secale cornutum" }
+    ]
+  },
+  {
+    "enfermidade": "Acúfenos",
+    "entrada_primaria": "Ruídos (zumbidos, tinidos, pios, roncos) percebidos nos ouvidos ou na cabeça sem fonte externa. Frequentemente associados a hipoacusia.",
+    "seguranca": "Avaliação ORL indispensável para descartar causas objetiváveis como rolha de cerume, neurinoma, otite serosa ou labirintite. Causas tóxicas (aspirina, quinina) ou vasculares (HTA) devem ser pesquisadas.",
+    "diagnostico_diferencial": [
+      { "if": "Hipersensibilidade ao ruído AND impressão de enlouquecer", "then": "Actaea racemosa" },
+      { "if": "Surdez por paralisia do VIII par craniano AND eco dos sons dentro da cabeça AND agravamento por exercício mental", "then": "Causticum" },
+      { "if": "Presença de surdez AND vertigens AND arrepios", "then": "Chininum sulfuricum" },
+      { "if": "Distúrbio circulatório AND batimentos do coração percebidos no ouvido/cabeça AND após insolação AND agravamento pelo calor", "then": "Glonoimum" },
+      { "if": "Origem circulatória AND surdez para voz humana AND vertigens AND reverberação dos sons", "then": "Phosphorus" },
+      { "if": "Transitórios durante hemorragia AND cefaleia temporal", "then": "China rubra" },
+      { "if": "Surdez que melhora em ambiente barulhento", "then": "Graphites" },
+      { "if": "Inflamação catarral do ouvido médio AND secreções nasais amarelas e espessas", "then": "Hydrastis canadensis" },
+      { "if": "Associados a coriza com dores nos sinus frontais", "then": "Kalium iodatum" },
+      { "if": "Catarro da trompa de Eustáquio", "then": "Kalium muriaticum" },
+      { "if": "Catarro da trompa de Eustáquio AND parada brusca de corrimento nasal AND ouvido entupido AND palpitações AND vertigens ao despertar OR Ligados à menopausa com bochechas violáceas", "then": "Lachesis mutus" },
+      { "if": "Surdez AND vertigens ao tentar levantar da cama", "then": "Natrum salicylicum" },
+      { "if": "Ruído de cascata AND vertigens AND melhora girando o dedo no ouvido", "then": "Salicylicum acidum" },
+      { "if": "Durante a menopausa AND vermelhidão circunscrita das bochechas AND cefaleia latejante", "then": "Sanguinaria canadensis" },
+      { "if": "Congestão cefálica AND orelhas vermelhas AND surdez catarral após retrocesso de otorréia fétida AND agravamento ao comer", "then": "Sulfur" },
+      { "if": "Otospongiose AND espessamento do tímpano AND imobilidade dos ossículos", "then": "Thiosinaminum" }
+    ]
+  },
+  {
+    "enfermidade": "Aftas",
+    "entrada_primaria": "Pequenas ulcerações amareladas com halo vermelho na mucosa bucal, faríngea ou genital. Sensação de queimação.",
+    "seguranca": "Podem indicar Doença de Behcet (uveíte, flebite associadas). Iniciar tratamento aos primeiros sinais.",
+    "diagnostico_diferencial": [
+      { "if": "Sangram facilmente ao contato AND sensação de calor na boca AND hipersialorréia AND lactente recusa o seio AND associação com diarreia", "then": "Borax" },
+      { "if": "Salivação intensa AND mau hálito AND gengivas esponjosas AND língua com marcas dos dentes AND adenopatias cervicais AND criança agressiva/violenta", "then": "Mercurius solubilis" },
+      { "if": "Recidivantes desde a infância AND pessoa reservada AND agravamento à beira-mar AND alergia ao sol AND língua geográfica", "then": "Natrum muriaticum" },
+      { "if": "Exsudação de líquido sanguinolento e fétido AND paciente etilista AND sangramento fácil por orifícios", "then": "Sulfuricum acidum" },
+      { "if": "Aspecto azulado ou gangrenoso no curso de estomatite", "then": "Arsenicum album" },
+      { "if": "Sintomas de Mercurius solubilis porém mais violentos AND estomatite herpética importante", "then": "Mercurius corrosivus" },
+      { "if": "Ulcerações profundas AND sangram facilmente AND dores picantes ao toque", "then": "Nitricum acidum" },
+      { "if": "Recidiva apesar de medicamentos bem indicados", "then": "Psorinum" }
+    ]
+  },
+  {
+    "enfermidade": "Agorafobia",
+    "entrada_primaria": "Evitação fóbica de espaços abertos, impedindo o deslocamento livre e autonomia.",
+    "seguranca": "Frequentemente associada a crises de ansiedade e pânico.",
+    "diagnostico_diferencial": [
+      { "if": "Medo da morte AND agitação AND sensação de perigo iminente AND palpitações com pulso rápido e duro AND consequência de terror", "then": "Aconitum napellus" },
+      { "if": "Necessidade de companhia ao atravessar praças AND medo de paredes altas AND pressa ao andar AND ansiedade de antecipação AND tremores", "then": "Argentum nitricum" },
+      { "if": "Após choque mental", "then": "Arnica montana" },
+      { "if": "Aversão pela companhia AND ansiedade de antecipação AND lentidão de ação AND tremores", "then": "Gelsemium sempervirens" }
+    ]
+  },
+  {
+    "enfermidade": "AIDS",
+    "entrada_primaria": "Síndrome da imunodeficiência adquirida (HIV), atacando linfócitos CD4. Gravidade por infecções oportunistas.",
+    "seguranca": "O tratamento homeopático é complemento às regras terapêuticas consensuais. Deve ser empreendido preferencialmente em fase não descompensada.",
+    "diagnostico_diferencial": [
+      { "if": "Fase descompensada AND candidíase oportunista AND adenopatias AND febre noturna com transpiração fétida", "then": "Mercurius solubilis" },
+      { "if": "Medicamento de fundo AND tendência ao herpes", "then": "Natrum muriaticum" },
+      { "if": "Medicamento de fundo AND tendência ao herpes AND ondas de calor emotivas AND astenia com rosto pálido e olheiras", "then": "Sepia officinalis" },
+      { "if": "Indivíduo que dissemina o vírus multiplicando relações sexuais não protegidas", "then": "Arsenicum album" }
+    ]
+  },
+  {
+    "enfermidade": "Alcoolodependência",
+    "entrada_primaria": "Necessidade irresistível de consumo regular de álcool. Causa distúrbios comportamentais, neurológicos, digestivos e cardiovasculares.",
+    "seguranca": "Reduz significativamente a esperança de vida. Pode levar a cirrose, pancreatite e câncer. Marcadores biológicos (Gama GT, VGM, CDT) ajudam no monitoramento.",
+    "diagnostico_diferencial": [
+      { "if": "Embriaguez alegre e loquaz AND delírio com canto/profecias AND dificuldade de coordenar movimentos AND cefaleia agravada pelo álcool", "then": "Agaricus muscarius" },
+      { "if": "Paciente deprimido pelo álcool AND pessimista e crítico AND 'vinho triste'", "then": "Arsenicum album" },
+      { "if": "Propensão ao álcool ligada a síndrome melancólica", "then": "Aurum metallicum" },
+      { "if": "Bochechas violáceas AND nariz vermelho AND ondas de calor AND tremor das mãos AND intolerância a roupas fechadas AND loquacidade disparatada", "then": "Lachesis mutus" },
+      { "if": "Ressaca (cefaleia, vertigens, diarreia, arrepios) AND língua saburrosa na metade posterior OR Paciente irritável que bebe para suportar excesso de trabalho", "then": "Nux vomica" },
+      { "if": "Pancreatite OR Pré-cirrose OR Cirrose", "then": "Phosphorus" },
+      { "if": "Delirium tremens AND zoopsias", "then": "Stramonium" },
+      { "if": "Delírio maníaco em alcoólico perigoso AND risco de ato delituoso AND cleptomania", "then": "Absinthium" },
+      { "if": "Hiperestesia auditiva AND sensação de flutuar no ar AND náuseas/ansiedade ao despertar", "then": "Asarum europaeum" },
+      { "if": "Vômitos negros", "then": "Cadmium sulfuricum" },
+      { "if": "Dispepsia alcoólica AND prefere álcool à água para acalmar a gastrite", "then": "Capsicum annuum" },
+      { "if": "Déficit sensorial (acúfenos, visão turva) AND tremores AND perda de memória AND comportamento infantil AND disfunção erétil AND acne rosácea", "then": "Carboneum sulfuratum" },
+      { "if": "Falta de pudor AND perda de senso moral AND logorreia AND euforia", "then": "Ethylicum" },
+      { "if": "Dispepsia de bebedores de cerveja (ama a cerveja mas ela agrava peso no epigástrio)", "then": "Kalium bichromicum" },
+      { "if": "Fígado atrófico ou hipertrófico AND ascite", "then": "Lycopodium clavatum" },
+      { "if": "AVC em paciente alcoolodependente", "then": "Opium" },
+      { "if": "Soluço após beber álcool", "then": "Ranunculus bulbosus" },
+      { "if": "Paciente com couperose AND pré-cirrótico AND doença do baço (facilita desgostar do álcool)", "then": "Spiritus quercus glandium" },
+      { "if": "Alcoolismo jovial AND 'vinho alegre' AND associado a diabetes tipo 2", "then": "Sulfur" },
+      { "if": "Esofagite/Gastrite alcoólica AND eructações ácidas AND água provoca frio no estômago AND tendência a hemorragias passivas (púrpura)", "then": "Sulfuricum acidum" },
+      { "if": "Delírio erótico ou religioso AND inconsolável por infortúnio imaginário", "then": "Veratrum album" },
+      { "if": "Horror ao álcool (menor dose causa cefaleia e náuseas)", "then": "Zincum metallicum" }
+    ]
+  },
+  {
+    "enfermidade": "Aleitamento Materno",
+    "entrada_primaria": "Ação de nutrir o recém-nascido com o leite materno. Previne afecções alérgicas (asma, alergia alimentar) e diminui infecções respiratórias e gastrointestinais no lactente.",
+    "seguranca": "China rubra é o principal medicamento para as consequências de perdas líquidas (leite). Se houver necessidade de secar o leite, utiliza-se Ricinus communis em alta diluição (30 CH).",
+    "diagnostico_diferencial": [
+      { "if": "Ingurgitamento mamário AND melhora por pressão (uso de porta-seios)", "then": "Bryonia alba" },
+      { "if": "Astenia intensa devida ao aleitamento prolongado", "then": "China rubra" },
+      { "if": "Dores erráticas nos seios durante a mamada AND seios tensos e inchados após mamar AND mãe muito emotiva que chora ao amamentar", "then": "Pulsatilla" },
+      { "if": "Necessidade de aumentar a secreção láctea (uso em 3 DH)", "then": "Ricinus communis" },
+      { "if": "Necessidade de interromper/secar a secreção láctea (uso em 30 CH)", "then": "Ricinus communis" },
+      { "if": "Ocorrência de regras durante o período de aleitamento", "then": "Calcarea carbonica" },
+      { "if": "Criança recusa o leite materno AND aumento do desejo sexual da mãe durante o aleitamento", "then": "Calcarea phosphorica" },
+      { "if": "Leite escorre espontaneamente", "then": "Chamomilla vulgaris" },
+      { "if": "Dores no mamilo que irradiam para a omoplata correspondente enquanto a criança mama", "then": "Croton tiglium" },
+      { "if": "Dores nos seios no período suposto das regras", "then": "Phytolacca decandra" },
+      { "if": "Erupção de eczema na mãe AND perda de afeto pela criança (depressão pós-parto)", "then": "Sepia officinalis" },
+      { "if": "Dores nas costas ou útero durante o aleitamento OR regras durante o aleitamento", "then": "Silicea" }
+    ]
+  },
+  {
+    "enfermidade": "Alergia",
+    "entrada_primaria": "Reação de sensibilidade excessiva do organismo ao meio ambiente (ácaros, alimentos, pólens, mofos, contato).",
+    "seguranca": "Psorinum é o medicamento central da 'psore' (doença crônica de alternâncias entre pele e órgãos internos). Em crises agudas de choque anafilático, Histaminum é indicado.",
+    "diagnostico_diferencial": [
+      { "if": "Edema rosado (pele de casca de laranja) AND prurido que melhora com compressas frias AND sensação de que cada respiração é a última", "then": "Apis mellifica" },
+      { "if": "Asma grave com dispneia noturna AND eczema seco furfuráceo AND alternância entre asma e eczema AND paciente meticuloso e pessimista", "then": "Arsenicum album" },
+      { "if": "Erupção alérgica com bolhas cutâneas", "then": "Cantharis" },
+      { "if": "Lacrimejamento irritante com coriza alérgica", "then": "Euphrasia officinalis" },
+      { "if": "Alergia cutânea (urticária, edema de Quincke) ou respiratória (broncospasmo) AND noção de hiperemia e edema", "then": "Histaminum" },
+      { "if": "Tosse alérgica com náusea contínua AND língua limpa AND sibilâncias", "then": "Ipeca" },
+      { "if": "Asma brônquica pós-gripe mal curada ou na menopausa AND laringe sensível ao toque ou golas apertadas", "then": "Lachesis mutus" },
+      { "if": "Eczema atópico AND dispepsia flatulenta", "then": "Lycopodium clavatum" },
+      { "if": "Paciente reservado e fechado AND alergia solar AND herpes AND coriza espasmódica AND agravamento após luto ou desgosto", "then": "Natrum muriaticum" },
+      { "if": "Coriza com prurido nas asas do nariz AND asma com dores no peito (base esquerda) AND alergia a mofos", "then": "Natrum sulfuricum" },
+      { "if": "Espirros em salva ao despertar AND língua saburrosa na metade posterior AND dispepsia espasmódica", "then": "Nux vomica" },
+      { "if": "Alternância de eczema e diarreia OR eczema e enxaqueca AND agravamento por plumas", "then": "Psorinum" },
+      { "if": "Eczema de vesículas pruriginosas com aréola vermelha AND melhora por compressas bem quentes", "then": "Rhus toxicodendron" },
+      { "if": "Alergia solar AND pequenos botões vermelhos", "then": "Muriaticum acidum" },
+      { "if": "Espirros violentos em salva AND grande sensibilidade ao frio", "then": "Sabadilla" },
+      { "if": "Erupções redondas em torno da boca, axilas ou dobras AND grande fadiga com rosto pálido e olheiras", "then": "Sepia officinalis" },
+      { "if": "Erupções vermelhas AND indivíduo pletórico, jovial e que sente muito calor", "then": "Sulfur" },
+      { "if": "Criança irritável AND friorenta AND alergia ao leite", "then": "Tuberculinum" }
+    ]
+  },
+  {
+    "enfermidade": "Alopecia",
+    "entrada_primaria": "Perda total ou parcial dos cabelos e pelos, ligada a fatores genéticos, estresse, hipotireoidismo ou causas iatrogênicas.",
+    "seguranca": "A alopecia frontal precoce é indicativa de Natrum muriaticum, mas o medicamento foca no tipo sensível (terreno) e não na repilação direta.",
+    "diagnostico_diferencial": [
+      { "if": "Alopecia pós-doença grave/prolongada AND esgotamento físico AND queda mais marcante nas têmporas e supercílios", "then": "Kalium carbonicum" },
+      { "if": "Alopecia frontal precoce AND indivíduo reservado AND testa gordurosa AND eczema na borda do couro cabeludo", "then": "Natrum muriaticum" },
+      { "if": "Queda após sofrimento, sobrecarga cerebral ou febre AND sensação de 'pilha vazia' AND cabelos precocemente grisalhos", "then": "Phosphoricum acidum" },
+      { "if": "Alopecia em placas redondas (pelada) AND cabelos caem aos punhados AND paciente com crises de pânico", "then": "Phosphorus" },
+      { "if": "Alopecia em placas redondas associada a erupção furfurácea", "then": "Arsenicum album" },
+      { "if": "Alopecia em placas AND cabelos novos são finos e quebradiços AND cáries dentárias rápidas", "then": "Fluoricum acidum" },
+      { "if": "Cabelos tornam-se precocemente grisalhos AND caem em placas AND paciente autoritário", "then": "Lycopodium clavatum" },
+      { "if": "Tinha AND cabelos aglutinados por crostas espessas com pus subjacente AND prurido noturno", "then": "Mezereum" },
+      { "if": "Alopecia com sensibilidade da raiz dos cabelos AND pós-parto ou menopausa", "then": "Sepia officinalis" },
+      { "if": "Perda da ponta das sobrancelhas", "then": "Thuya occidentalis" },
+      { "if": "Queda de cabelos e unhas AND metrorragias", "then": "Ustilago maidis" }
+    ]
+  },
+  {
+    "enfermidade": "Alzheimer",
+    "entrada_primaria": "Transtornos mnésicos, cognitivos e comportamentais que evoluem progressivamente para síndrome demencial. Atrofia cortical e placas senis.",
+    "seguranca": "A homeopatia não cura Alzheimer; visa apenas proporcionar conforto. A organicidade é um limite do método.",
+    "diagnostico_diferencial": [
+      { "if": "Lentificação intelectual AND confusão quanto à própria identidade AND engana-se com as palavras ao falar", "then": "Alumina" },
+      { "if": "Demência senil com perda de senso moral AND tendência à crueldade AND uso de linguagem grosseira", "then": "Anacardium orientale" },
+      { "if": "Paciente confuso, querelante e obsceno AND exibicionismo AND suspeita de complôs contra si", "then": "Hyoscyamus niger" },
+      { "if": "Delírio violento, alucinatório e loquaz AND desejo de luz e companhia", "then": "Stramonium" },
+      { "if": "Depressão de todas as faculdades intelectuais AND perda de memória AND agravamento pelo vinho", "then": "Zincum metallicum" },
+      { "if": "Senescência prematura AND agravamento pela conversação", "then": "Ambra grisea" },
+      { "if": "Comportamento pueril AND timidez AND paciente se fecha ao ser visitado", "then": "Baryta carbonica" },
+      { "if": "Hebetude com olhar fixo AND responde confusamente como se pensasse em outra coisa", "then": "Helleborus niger" },
+      { "if": "Esquece o próprio nome e o de amigos AND chora durante a consulta", "then": "Medorrhinum" }
+    ]
+  },
+  {
+    "enfermidade": "Amenorréia",
+    "entrada_primaria": "Ausência de menstruação primária (falta de surgimento) ou secundária (cessação).",
+    "seguranca": "Pesquisar causas anatômicas, ovarianas ou uterinas.",
+    "diagnostico_diferencial": [
+      { "if": "Pós-golpe de frio, banho frio ou susto AND agitação com medo da morte", "then": "Aconitum napellus" },
+      { "if": "Pós-contrariedade ou luto AND suspiros involuntários AND mudanças bruscas de humor", "then": "Ignatia amara" },
+      { "if": "Durante o climatério AND intolerância a roupas fechadas no pescoço AND melhora geral se as regras retornam", "then": "Lachesis mutus" },
+      { "if": "Primeiras regras tardias em mocinha com pele marmoreada OR Amenorreia secundária pós-pés molhados", "then": "Pulsatilla" },
+      { "if": "Amenorreia com fenômenos vicariantes (epistaxe, tosse seca, edema)", "then": "Senecio aureus" },
+      { "if": "Sensação de peso para baixo (prolapso) AND paciente pálida com olheiras", "then": "Sepia officinalis" },
+      { "if": "Dores picantes nos ovários (principalmente direito)", "then": "Apis mellifica" },
+      { "if": "Primeiras regras tardias em mocinha anêmica mas que come bem AND pouco comunicativa AND língua geográfica", "then": "Natrum muriaticum" },
+      { "if": "Fenômenos vicariantes de diátese hemorrágica (hemoptise, hematúria)", "then": "Phosphorus" }
+    ]
+  },
+  {
+    "enfermidade": "Anemia",
+    "entrada_primaria": "Diminuição de hemácias/hemoglobina (abaixo de 13g/L no homem, 11g/L na mulher). Gera hipóxia celular, fadiga e vertigens.",
+    "seguranca": "A homeopatia não substitui alopatia ou transfusão em casos graves. É parte complementar da medicina.",
+    "diagnostico_diferencial": [
+      { "if": "Palidez cerosa AND edema de membros inferiores AND dispneia AND urina abundante clara", "then": "Aceticum acidum" },
+      { "if": "Anemia grave (leucemia/câncer) AND emagrecimento AND agitação ansiosa apesar da astenia", "then": "Arsenicum album" },
+      { "if": "Anemia aguda pós-hemorragia AND face pálida com olheiras AND lipotimia", "then": "China rubra" },
+      { "if": "Anemia hipocrômica ferropriva AND síndrome vasomotora (face pálida alterna com ondas congestivas por dor/emoção)", "then": "Ferrum metallicum" },
+      { "if": "Anemia autoimune (Biermer) AND paciente reservado AND língua geográfica AND emagrece embora coma bem", "then": "Natrum muriaticum" },
+      { "if": "Adolescente após forte impulso de crescimento", "then": "Calcarea phosphorica" },
+      { "if": "Anemia com hepatomegalia e esplenomegalia", "then": "Ferrum arsenicosum" },
+      { "if": "Anemia com tendência a hemorragias (epistaxe, hemoptise)", "then": "Ferrum phosphoricum" },
+      { "if": "Anemia que acompanha diátese hemorrágica em icterícia grave ou cirrose", "then": "Phosphorus" }
+    ]
+  },
+  {
+    "enfermidade": "Angina",
+    "entrada_primaria": "Inflamação aguda da mucosa da faringe com febre elevada e disfagia. Pode ser eritematosa, pultácea, vesiculosa ou ulceronecrótica.",
+    "seguranca": "Em caso de Estreptococo A Beta-hemolítico, há risco de febre reumática e glomerulonefrite; o tratamento homeopático deve ser associado a antibióticos.",
+    "diagnostico_diferencial": [
+      { "if": "Mucosa rosada e edemaciada AND edema da úvula/amígdalas AND dores picantes que melhoram com líquidos frios AND ausência de sede", "then": "Apis mellifica" },
+      { "if": "Garganta vermelho-vivo e seca AND sede intensa AND espasmo com sensação de constrição AND febre elevada com delírio", "then": "Belladonna" },
+      { "if": "Mucosa vermelho-violácea AND Lado Esquerdo para Direito (começa na amígdala esquerda) AND intolerância ao toque no pescoço AND bebidas quentes agravam", "then": "Lachesis mutus" },
+      { "if": "Lado Direito para Esquerdo (começa na amígdala direita) AND melhora por bebidas quentes AND criança inteligente e autoritária", "then": "Lycopodium clavatum" },
+      { "if": "Angina pultácea AND mau hálito AND salivação abundante AND língua com marcas dos dentes AND febre noturna sem melhora pelo suor", "then": "Mercurius solubilis" },
+      { "if": "Garganta vermelho-escura AND dores na raiz da língua que irradiam para os ouvidos ao engolir", "then": "Phytolacca decandra" },
+      { "if": "Início brutal pós-frio seco AND febre importante com ansiedade", "then": "Aconitum napellus" },
+      { "if": "Angina de Vincent AND ulcerações com dores queimantes que melhoram pelo calor AND tendência à gangrena", "then": "Arsenicum album" },
+      { "if": "Dores picantes AND evolução para fleimão da garganta", "then": "Hepar sulfuris calcareum" },
+      { "if": "Lado Esquerdo predominante AND sintomas de Mercurius solubilis", "then": "Mercurius bi-iodatus" },
+      { "if": "Lado Direito predominante AND sintomas de Mercurius solubilis", "then": "Mercurius proto-iodatus" }
+    ]
+  },
+  {
+    "enfermidade": "Angor (Angina de Peito)",
+    "entrada_primaria": "Crise de dores constritivas retroesternais irradiadas para o maxilar e membro superior esquerdo, desencadeadas pelo esforço.",
+    "seguranca": "Expressão de isquemia miocárdica. A homeopatia atua apenas como adjuvante do tratamento clássico/alopático.",
+    "diagnostico_diferencial": [
+      { "if": "Dores intensas com agitação e medo da morte (convicto que vai morrer) AND pulso rápido, cheio e duro", "then": "Aconitum napellus" },
+      { "if": "Sensação de peso sobre o esterno AND sensação de parada do coração AND paciente melancólico com HTA orgânica", "then": "Aurum metallicum" },
+      { "if": "Sensação de constrição por 'mão de ferro' ou torno AND Lado Esquerdo (agravamento ao deitar sobre este lado) AND palpitações violentas", "then": "Cactus grandiflorus" },
+      { "if": "Dores irradiadas ao membro superior esquerdo (dormência/formigamento) AND síndrome de ameaça de infarto", "then": "Latrodectus mactans" },
+      { "if": "Dores precordiais irradiadas ao longo do membro superior esquerdo até a mão AND pulso lento e fraco", "then": "Kalmia latifolia" },
+      { "if": "Dores com palpitações ao inclinar-se para frente ou deitar sobre o Lado Esquerdo AND batimentos elevam a roupa", "then": "Spigelia anthelmia" }
+    ]
+  },
+  {
+    "enfermidade": "Anorexia Mental",
+    "entrada_primaria": "Conduta de restrição alimentar em adolescentes (12-20 anos) com medo de engordar e negação da magreza. Tríade: anorexia, emagrecimento, amenorreia.",
+    "seguranca": "Conduta extrema; 7 a 8% dos pacientes morrem de anorexia. O tratamento de fundo é obrigatório.",
+    "diagnostico_diferencial": [
+      { "if": "Pós-trauma psíquico AND dores corporais de 'corpo moído'", "then": "Arnica montana" },
+      { "if": "Alternância de anorexia e bulimia AND hipersensibilidade do olfato AND humor cambiante", "then": "Ignatia amara" },
+      { "if": "Obsessão com nutrição e peso AND intelectualização/racionalização dos problemas AND desejo do absoluto", "then": "Natrum muriaticum" },
+      { "if": "Paciente doce, passiva e resignada AND chora facilmente", "then": "Pulsatilla" },
+      { "if": "Paciente com ar triste e olheiras AND sentimento de inferioridade AND ligada à imagem do pai", "then": "Sepia officinalis" },
+      { "if": "Desgosto da vida AND corpo frio AND pele atrófica AND astenia importante", "then": "Mica" }
+    ]
+  },
+  {
+    "enfermidade": "Ansiedade e Angústia",
+    "entrada_primaria": "Ansiedade (desassossego psíquico, medo sem causa); Angústia (manifestações neurovegetativas: taquicardia, dispneia, tremores).",
+    "seguranca": "Estudar os medicamentos por comparação para encontrar os sintomas discriminativos (ex: Aconitum pede urgência, Arsenicum recusa).",
+    "diagnostico_diferencial": [
+      { "if": "Crise maior com agitação AND convicção de morte iminente (exige urgência) AND palpitações com pulso duro", "then": "Aconitum napellus" },
+      { "if": "Ansiedade de antecipação com impaciência e precipitação AND medo de lançar-se no vazio (vertigem de alturas) AND diarreia de antecipação", "then": "Argentum nitricum" },
+      { "if": "Agitação com medo da morte mas recusa cuidados AND ansiedade sentida no estômago AND meticulosidade extrema", "then": "Arsenicum album" },
+      { "if": "Sentimento de culpa e autoacusação AND sentimento de abandono AND prepara suicídio real", "then": "Aurum metallicum" },
+      { "if": "Humor cambiante após luto/decepção AND tendência ao silêncio AND suspiros profundos AND intolerância a odores (café/tabaco)", "then": "Ignatia amara" },
+      { "if": "Ataque de pânico sem causa precisa AND necessidade absoluta de companhia AND medo de doenças", "then": "Phosphorus" },
+      { "if": "Ansiedade de antecipação com aspecto embotado AND deseja ser deixado em paz AND tremores", "then": "Gelsemium sempervirens" },
+      { "if": "Ansiedade por antecipação AND convicção de que vai falhar no que empreende AND melhora com encorajamento", "then": "Silicea" }
+    ]
+  },
+  {
+    "enfermidade": "Antraz",
+    "entrada_primaria": "Infecção do tecido subcutâneo (Staph. aureus) com focos lodosos múltiplos, febre elevada e tendência à necrose.",
+    "seguranca": "Evolução possível para septicemia. Requer monitoramento rigoroso.",
+    "diagnostico_diferencial": [
+      { "if": "Dores em queimação intoleráveis AND pele arroxeada AND tendência à gangrena", "then": "Anthracinum" },
+      { "if": "Dores em queimação como pelo fogo (melhoram pelo calor) AND pus fétido AND esgotamento ansioso", "then": "Arsenicum album" },
+      { "if": "Febre e prostração tais que o leito parece duro AND dissociação pulso/temperatura", "then": "Pyrogenium" },
+      { "if": "Dores intoleráveis em queimação AND evolução para septicemia", "then": "Tarentula cubensis" },
+      { "if": "Zona edemaciada e marmoreada AND sangramento negro que não coagula", "then": "Crotalus horridus" },
+      { "if": "Aspecto violáceo AND hipersensível ao toque AND pus com sangue", "then": "Lachesis mutus" }
+    ]
+  },
+  {
+    "enfermidade": "Arterite",
+    "entrada_primaria": "Lesão arterial inflamatória e degenerativa (ateromatosa). Claudicação intermitente ao esforço e abolição de pulsos distais.",
+    "seguranca": "Fatores de risco: tabagismo, diabetes, HTA. A homeopatia atua sobre a parte reversível (espasmo).",
+    "diagnostico_diferencial": [
+      { "if": "Arterite com cãibras insuportáveis", "then": "Cactus grandiflorus" },
+      { "if": "Claudicação intermitente AND cãibras com pés frios (Lado Direito predominante) AND dispepsia flatulenta", "then": "Lycopodium clavatum" },
+      { "if": "Paciente habituado a excessos (café, álcool, gordura) AND puxa os pés ao andar AND HTA", "then": "Nux vomica" },
+      { "if": "Cãibras AND pele fria ao toque mas dores em queimação (agrava pelo calor) AND não suporta cobertas AND risco de gangrena", "then": "Secale cornutum" },
+      { "if": "Cãibras e membros inferiores gelados em grande fumante", "then": "Tabacum" }
+    ]
+  },
+  {
+    "enfermidade": "Artrose",
+    "entrada_primaria": "Afecção crônica degenerativa das articulações com destruição da cartilagem e lesões ósseas.",
+    "seguranca": "A homeopatia age sobre o elemento doloroso e o estado dos ossos (fisiopatologia).",
+    "diagnostico_diferencial": [
+      { "if": "Ossos grandes e articulações rígidas AND agravamento pela umidade AND melhora ao estirar-se", "then": "Calcarea carbonica" },
+      { "if": "Hiper-relaxamento ligamentar AND osteófitos/exostoses importantes", "then": "Calcarea fluorica" },
+      { "if": "Paciente longilíneo AND localizações em suturas/sínfises (sacroilíaca) AND agrava com neve/tempestade", "then": "Calcarea phosphorica" },
+      { "if": "Complicada com retrações tendinosas", "then": "Causticum" },
+      { "if": "Tendência à osteonecrose", "then": "Phosphorus" },
+      { "if": "Infiltração das articulações AND obesidade AND agrava tempo úmido", "then": "Natrum sulfuricum" },
+      { "if": "Tendência a efusões articulares AND queimação agravada em pé AND alternância com diarreia/eczema", "then": "Sulfur" },
+      { "if": "Sensação de 'osso de vidro' (que vai partir) AND agrava umidade AND melhora ao estirar-se", "then": "Thuya occidentalis" }
+    ]
+  },
+  {
+    "enfermidade": "Asma",
+    "entrada_primaria": "Crise de bradipneia expiratória com sibilâncias, tosse e opressão, geralmente noturna. Obstrução brônquica reversível.",
+    "seguranca": "Crises graves necessitam suporte hospitalar. Poluição urbana é fator agravante.",
+    "diagnostico_diferencial": [
+      { "if": "Edema de laringe/brônquios AND sensação de 'cada respiração é a última' AND pós-picada de inseto ou supressão de urticária", "then": "Apis mellifica" },
+      { "if": "Esgotamento ansioso AND medo da sufocação AND queimação no peito AND agrava noite AND melhora calor", "then": "Arsenicum album" },
+      { "if": "Asma com falta de ar AND necessidade de ser abanado AND idosos com enfisema AND melhora por eructações", "then": "Carbo vegetabilis" },
+      { "if": "Tosse com silvos e sufocante que termina em náusea AND língua limpa AND hipersalivação", "then": "Ipeca" },
+      { "if": "Agravamento às 3h da manhã AND expectoração tipo 'tapioca' AND melhora sentado inclinado para frente", "then": "Kalium carbonicum" },
+      { "if": "Sensibilidade da laringe ao toque/roupa apertada AND sufocação ao adormecer AND bochechas violáceas", "then": "Lachesis mutus" },
+      { "if": "Asma por presença de mofos AND agrava tempo úmido AND prurido nas asas do nariz AND tosse cheia (segura o peito)", "then": "Natrum sulfuricum" },
+      { "if": "Pós-refeição AND necessidade de abrir roupas AND irritabilidade", "then": "Nux vomica" },
+      { "if": "Respiração ruidosa (estertores audíveis à distância) AND impossibilidade de escarrar AND cianose AND sonolência", "then": "Antimonium tartaricum" },
+      { "if": "Tosse espasmódica 'de cachorro' AND agrava ao falar ou deitado AND após meia-noite", "then": "Drosera rotundifolia" },
+      { "if": "Queimação ou calor no peito/palma das mãos AND agrava deitado sobre Lado Esquerdo", "then": "Phosphorus" },
+      { "if": "Tosse crupal seca 'como serra cortando tábua' AND melhora após beber", "then": "Spongia tosta" }
+    ]
+  },
+  {
+    "enfermidade": "Bartholinite",
+    "entrada_primaria": "Inflamação da glândula de Bartholin, frequentemente por Neisseria gonorrhoeae, Staphylococcus aureus, colibacilos ou Candida albicans.",
+    "seguranca": "A abscedação dá-se frequentemente a partir de um cisto preexistente; nesse caso o tratamento é cirúrgico. Deve-se pensar sistematicamente em Sepia, mas prescrevê-la apenas quando os sintomas estiverem presentes.",
+    "diagnostico_diferencial": [
+      { "if": "Abcesso hipersensível ao toque AND presença confirmada ou suspeita de Staphylococcus aureus", "then": "Hepar sulfuris calcareum" },
+      { "if": "Principal medicamento para inflamação genital feminina AND tendência à ulceração AND leucorreias purulentas agravadas à noite AND adenopatia satélite AND presença de candidíase", "then": "Mercurius solubilis" },
+      { "if": "Leucorreias leitosas AND sensação de peso dos órgãos no baixo ventre AND face pálida com olheiras AND ondas de calor emotivas", "then": "Sepia officinalis" },
+      { "if": "Caso crônico AND aspecto cístico ou fistuloso", "then": "Silicea" },
+      { "if": "Inflamação repentina AND febre elevada", "then": "Belladonna" },
+      { "if": "Necessidade de bioterápico complementar para o tratamento de fundo", "then": "Medorrhinum" },
+      { "if": "Leucorreias cor de carne", "then": "Nitricum acidum" },
+      { "if": "Associação a condilomas", "then": "Thuya occidentalis" }
+    ]
+  },
+  {
+    "enfermidade": "Blefarite",
+    "entrada_primaria": "Inflamação do bordo livre das pálpebras, nas glândulas lacrimais acessórias e na implantação dos cílios. Traduz-se por vermelhidão, edema, escamas ou ulcerações superficiais.",
+    "seguranca": "As duas formas mais frequentes (seborreica e estafilocócica) podem estar associadas.",
+    "diagnostico_diferencial": [
+      { "if": "Blefarite crônica com ectrópio AND corrimento purulento abundante AND conjuntivite granular AND inchaço e vermelhidão das carúnculas AND pálpebras coladas de manhã AND agravamento perto de fonte de calor AND melhora pelo frio", "then": "Argentum nitricum" },
+      { "if": "No curso de coriza AND lacrimejamento abundante que escoria as pálpebras e bochechas AND piscamento constante das pálpebras", "then": "Euphrasia officinalis" },
+      { "if": "Blefarite crônica com fissuras nos cantos externos dos olhos AND vermelhidão do bordo das pálpebras com eczema AND pálpebras coladas de manhã", "then": "Graphites" },
+      { "if": "Blefarite estafilocóccica AND pálpebras sensíveis ao toque e ao ar livre AND granulações na face interna das pálpebras AND corrimento purulento que provoca pequenas vesículas na periferia AND inchaço das glândulas de Meibomius AND hipópio", "then": "Hepar sulfuris calcareum" },
+      { "if": "Pequenas ulcerações das pálpebras AND pálpebras vermelhas, espessas e inchadas AND ectrópio AND corrimento purulento corrosivo irritando a bochecha AND agravamento ao ar livre e pelo calor AND consequência de exposição ao calor do fogo", "then": "Mercurius solubilis" },
+      { "if": "Natureza alérgica ou seborreica AND vermelhidão do bordo das pálpebras AND prurido AND sensação de queimação AND agravamento por banhos de olhos", "then": "Sulfur" }
+    ]
+  },
+  {
+    "enfermidade": "Bronquiectasia (Dilatação dos Brônquios)",
+    "entrada_primaria": "Dilatação permanente e anormal dos brônquios cartilaginosos de médio calibre, com alteração dos compostos elásticos e musculares. Sintomas: tosse com expectoração, febre, hemoptise, dispneia e hipocratismo digital.",
+    "seguranca": "Resulta de vários mecanismos; a infecção crônica desempenha um papel constante.",
+    "diagnostico_diferencial": [
+      { "if": "Atravancamento brônquico importante AND estertores audíveis à distância AND pouco ou nada de expectoração AND tosse cheia e improdutiva AND dispneia, sonolência e cianose por anoxia", "then": "Antimonium tartaricum" },
+      { "if": "Período de superinfecção AND estertores úmidos ou sibilâncias AND expectoração abundante de muco-pus AND tosse crupal à menor corrente de ar ou ao se descobrir AND sufocação ao tossir", "then": "Hepar sulfuris calcareum" },
+      { "if": "Broncorreia purulenta e esverdeada AND muco espesso, viscoso e aderente AND difícil de expectorar AND tosse agravada ao comer e ao se despir", "then": "Kalium bichromicum" },
+      { "if": "Dispneia agravada quando deitado sobre o Lado Esquerdo AND sensação de queimação no peito, entre as omoplatas ou na palma das mãos AND hemoptise", "then": "Phosphorus" },
+      { "if": "Superinfecção crônica com expectoração purulenta permanente AND frialdade AND fatigabilidade AND transpiração dos pés com odor fétido", "then": "Silicea" },
+      { "if": "Tosse noturna, seca, com quintas subintrantes e retomada inspiratória AND cócegas na laringe ao deitar AND paciente segura o tórax ou ventre ao tossir AND agravamento ao beber, comer, cantar ou se esticar AND agravamento após a meia-noite", "then": "Drosera rotundifolia" },
+      { "if": "Expectoração abundante de manhã AND dores picantes no peito (não ritmadas pela respiração) na base do Pulmão Direito AND melhora sentado inclinado para frente AND astenia AND tendência a sentir frio facilmente", "then": "Kalium carbonicum" }
+    ]
+  },
+  {
+    "enfermidade": "Bronquiolite",
+    "entrada_primaria": "Afecção viral (VRS) da criança pequena. Sintomas: tosse seca, polipneia, distensão torácica, estertores crepitantes no fim da inspiração, sibilâncias na expiração e febre pouco elevada.",
+    "seguranca": "A cinesioterapia respiratória é indispensável. A hospitalização impõe-se no recém-nascido com menos de três meses.",
+    "diagnostico_diferencial": [
+      { "if": "Atravancamento brônquico com estertores úmidos audíveis à distância AND muco abundante com pouca expectoração AND dispneia, atelectasia, cianose e sonolência por anoxia AND tosse cheia e improdutiva AND língua saburrosa", "then": "Antimonium tartaricum" },
+      { "if": "Tosse seca AND temperatura alterna entre subnormal e 38,5°C AND rosto pálido com febre baixa e vermelho com febre alta AND epistaxe AND micção involuntária pela tosse", "then": "Ferrum phosphoricum" },
+      { "if": "Expectoração fétida e sanguinolenta (criança mais velha) AND dispneia agravada quando deitado sobre o Lado Esquerdo AND fome apesar da febre AND grande sede", "then": "Phosphorus" },
+      { "if": "Início após golpe de frio seco AND tosse crupal e seca AND febre elevada com agitação AND pele seca sem transpiração", "then": "Aconitum napellus" },
+      { "if": "Tosse seca com febre elevada, sede e abatimento AND rosto vermelho AND transpiração", "then": "Belladonna" },
+      { "if": "Tosse seca agravada ao comer, beber ou entrar em quarto aquecido AND agravamento ao menor movimento AND lábios secos e rachados AND cefaleia agravada pela tosse AND dores picantes melhoram deitado sobre o lado dolorido AND irritabilidade na febre", "then": "Bryonia alba" }
+    ]
+  },
+  {
+    "enfermidade": "Bronquite Aguda",
+    "entrada_primaria": "Inflamação aguda da mucosa brônquica, geralmente de causa viral.",
+    "seguranca": "Em casos de atravancamento importante com sinais de anoxia (sonolência/cianose), a vigilância deve ser redobrada.",
+    "diagnostico_diferencial": [
+      { "if": "Fase invasiva brutal após golpe de frio seco AND tosse crupal e seca AND febre elevada com agitação AND pele seca", "then": "Aconitum napellus" },
+      { "if": "Atravancamento importante com estertores úmidos audíveis à distância AND muco abundante com pouca expectoração AND dispneia, sonolência por anoxia, cianose e atelectasia AND tosse cheia e improdutiva AND língua saburrosa", "then": "Antimonium tartaricum" },
+      { "if": "Fase invasiva brutal com tosse seca AND febre elevada com sede e abatimento AND rosto vermelho AND midríase AND transpiração", "then": "Belladonna" },
+      { "if": "Secura das mucosas AND tosse seca ao menor movimento AND agravamento ao comer, beber ou entrar em quarto aquecido AND dores picantes no peito melhoram deitado sobre o lado dolorido AND paciente segura a cabeça ao tossir AND irritabilidade", "then": "Bryonia alba" },
+      { "if": "Bronquite prolongada com dores na base do Pulmão Direito AND expectoração purulenta AND febre com recrudescência noturna e suor fétido que não alivia AND boca característica (sialorreia, hálito fétido, marca dos dentes na língua) AND agrava deitado sobre o Lado Direito", "then": "Mercurius solubilis" },
+      { "if": "Foco congestivo com calor no peito, entre ombros ou palmas das mãos AND laringe dolorida ao anoitecer AND expectoração fétida e sanguinolenta AND dispneia agrava deitado sobre o Lado Esquerdo AND sede por água gelada AND fome durante a febre", "then": "Phosphorus" },
+      { "if": "Bronquites de repetição em crianças (alternativa ao Tuberculinum)", "then": "Aviaire" },
+      { "if": "Medicamento de fundo para repetição AND transpiração do couro cabeludo AND tendência a sentir frio facilmente", "then": "Calcarea carbonica" },
+      { "if": "Sensação de impossibilidade de tossir/escarrar o muco AND tosse com som profundo AND emissão de urina durante a tosse AND rouquidão com sensação de ferida na laringe", "then": "Causticum" },
+      { "if": "Expectoração avermelhada e fétida AND vermelhidão circunscrita das bochechas AND sensação de queimação na palma das mãos", "then": "Sanguinaria canadensis" },
+      { "if": "Expectoração amarela com sensação de calor dentro do peito", "then": "Sulfur" },
+      { "if": "Bioterápico para repetição AND grande facilidade de sentir frio AND falta de ar AND variabilidade dos sintomas AND alternâncias mórbidas", "then": "Tuberculinum" }
+    ]
+  },
+  {
+    "enfermidade": "Bronquite Crônica",
+    "entrada_primaria": "Definida por tosse e expectoração durante pelo menos três meses por ano, em dois anos consecutivos.",
+    "seguranca": "Fatores agravantes: tabagismo e poluição urbana.",
+    "diagnostico_diferencial": [
+      { "if": "Episódios de superinfecção AND estertores úmidos ou sibilâncias AND tosse crupal/cheia ao menor ar frio ou corrente de ar AND sufocação ao tossir AND expectoração abundante de muco-pus", "then": "Hepar sulfuris calcareum" },
+      { "if": "Expectoração muito difícil, espessa e esverdeada AND crostas no nariz AND associação a sinusite", "then": "Kalium bichromicum" },
+      { "if": "Bochechas violáceas AND sensação de corpo estranho por muco na garganta AND tosse ao tocar a laringe melhora pela expectoração AND sufocação ao adormecer AND ondas de calor", "then": "Lachesis mutus" },
+      { "if": "Dores na base do Pulmão Direito AND expectoração purulenta AND febre noturna com suor fétido AND boca característica (sialorreia, hálito fétido, marca dos dentes) AND agrava deitado sobre o Lado Direito", "then": "Mercurius solubilis" },
+      { "if": "Superinfecção com expectoração purulenta permanente e fétida AND suor fétido nos pés AND fadiga AND frialdade AND silicose", "then": "Silicea" },
+      { "if": "Idoso com enfisema pulmonar AND respiração estertorosa AND entorpecimento por anoxia", "then": "Ammonium carbonicum" },
+      { "if": "Tosse cheia AND expectoração espessa amarela de manhã AND dispneia ao subir escadas AND voz rouca sem dor AND suor na cabeça AND sente frio facilmente", "then": "Calcarea carbonica" },
+      { "if": "Sufocação ao adormecer com despertar em sobressalto AND broncorreia importante AND silvos AND dispneia de Cheyne-Stokes AND complica doença cardíaca", "then": "Grindelia robusta" },
+      { "if": "Idoso caquético com doença grave AND muco amarelo muito espesso em 'rolhas' difíceis de expectorar", "then": "Hydrastis canadensis" },
+      { "if": "Catarro brônquico com massas acinzentadas AND dores picantes no peito independentes do movimento AND fatigabilidade AND sente frio facilmente", "then": "Kalium carbonicum" },
+      { "if": "Associação a dispepsia flatulenta AND batimento das asas do nariz nas fases agudas", "then": "Lycopodium clavatum" },
+      { "if": "Medicamento de fundo AND tendência ao herpes", "then": "Natrum muriaticum" },
+      { "if": "Expectoração esverdeada AND dores na base do Pulmão Esquerdo AND segura o peito ao tossir AND agravamento pela umidade e na primavera", "then": "Natrum sulfuricum" },
+      { "if": "Expectoração purulenta fétida AND dores na terceira cartilagem costal esquerda", "then": "Pix liquida" },
+      { "if": "Facilita expectoração no catarro do idoso AND estertores AND tosse irritativa pela marcha rápida AND pulmões parecem estirados para a coluna", "then": "Senega" },
+      { "if": "Fraqueza no peito AND expectoração abundante de gosto adocicado e fétido com aspecto de bolhas AND sai fácil de manhã", "then": "Stannum metallicum" },
+      { "if": "Quadro arrastado com muco-pus espesso AND tosse antes de dormir AND pletórico e jovial AND tendência a diabetes/furúnculos", "then": "Sulfur" }
+    ]
+  },
+  {
+    "enfermidade": "Câimbras",
+    "entrada_primaria": "Contrações involuntárias e dolorosas dos músculos esqueléticos.",
+    "seguranca": "Se o medicamento for prescrito às cegas, sem estudo dos sintomas, Nux vomica é preferível a Cuprum metallicum.",
+    "diagnostico_diferencial": [
+      { "if": "Dores tipo câimbras com contraturas perceptíveis ao toque AND agravamento ao inclinar-se para frente ou para trás AND localização dorsal (D1 a D3) OR no ligamento largo durante as regras", "then": "Actæa racemosa" },
+      { "if": "Irritabilidade pela dor AND melhora pelo calor AND ao dobrar o membro afetado", "then": "Colocynthis" },
+      { "if": "Câimbras da panturrilha violentas que fazem o paciente gritar AND indicação em coito, gravidez ou parto AND melhora ao alongar o pé", "then": "Cuprum metallicum" },
+      { "if": "Câimbras das panturrilhas que melhoram pelo calor ou ao dobrar o membro AND câimbra dos escritores AND ausência de irritabilidade mental", "then": "Magnesia phosphorica" },
+      { "if": "Indivíduo irritável e impaciente AND habituado a excessos (álcool, café) AND língua saburrosa na metade posterior AND melhora ao alongar o pé", "then": "Nux vomica" },
+      { "if": "Câimbras no curso de arterite com risco de gangrena AND membro frio ao toque com dores em queimação AND intolerância a cobertas", "then": "Secale cornutum" },
+      { "if": "Câimbras das panturrilhas no curso de diarréia coleriforme AND suores frios", "then": "Veratrum album" },
+      { "if": "Acompanham doenças graves AND agravamento à noite AND melhora pelo calor", "then": "Arsenicum album" },
+      { "if": "Câimbras na panturrilha agravadas ao se estirar", "then": "Calcarea carbonica" },
+      { "if": "No curso de colapso cardiovascular AND conjunto do corpo frio", "then": "Camphora" }
+    ]
+  },
+  {
+    "enfermidade": "Calázio",
+    "entrada_primaria": "Granuloma inflamatório crônico por obstrução de uma glândula de Meibomius. Tumefação palpebral indolor de crescimento lento.",
+    "seguranca": "Casos recidivantes devem motivar pesquisa de blefarite associada, diabetes ou conflito familiar latente. O calázio de repetição pode ser considerado psicossomático.",
+    "diagnostico_diferencial": [
+      { "if": "Início do quadro com edema palpebral", "then": "Apis mellifica" },
+      { "if": "Surgimento brutal com inflamação aguda AND vermelho e quente ao toque AND dores latejantes", "then": "Belladonna" },
+      { "if": "Calázio que supura", "then": "Hepar sulfuris calcareum" },
+      { "if": "Medicamento sintomático sistemático na ausência de sintomas específicos", "then": "Platanus" },
+      { "if": "Calázios de repetição AND nódulo seqüelar AND muito sensível ao toque", "then": "Staphysagria" },
+      { "if": "Surgimento brutal em tempo frio e seco AND dores difíceis de suportar", "then": "Aconitum napellus" },
+      { "if": "Medicamento dos nódulos de repetição", "then": "Conium maculatum" },
+      { "if": "Tendência à obesidade AND cicatrizes endurecidas AND atraso das menstruações", "then": "Graphites" },
+      { "if": "Tendência ao herpes e à alergia solar", "then": "Natrum muriaticum" },
+      { "if": "Conseqüência de um terçol em paciente de tipo Pulsatilla", "then": "Pulsatilla" },
+      { "if": "Tendência à supuração", "then": "Silicea" },
+      { "if": "Associação com blefarite", "then": "Sulfur" },
+      { "if": "Tendência a neoformações AND obesidade ginóide", "then": "Thuya occidentalis" }
+    ]
+  },
+  {
+    "enfermidade": "Candidíase",
+    "entrada_primaria": "Proliferação anômala da Candida albicans (saprófita). Manifesta-se como sapinho (bucal), boqueira, esofagite, colite ou vulvovaginite (leucorreia tipo requeijão).",
+    "seguranca": "Rara em imunocompetentes; pesquisar baixa das defesas. Mais freqüente na gravidez e diabetes. O tratamento homeopático não elimina fisicamente o fungo, mas modifica o terreno.",
+    "diagnostico_diferencial": [
+      { "if": "Candidíase bucal com calor seco na boca AND diarréia", "then": "Borax" },
+      { "if": "Candidíase em paciente diabético", "then": "Sulfur" },
+      { "if": "Leucorreias leitosas AND peso no baixo ventre AND face pálida com olheiras", "then": "Sepia officinalis" },
+      { "if": "Bioterápico complementar nas candidíases", "then": "Monilia albicans" }
+    ]
+  },
+  {
+    "enfermidade": "Cáries Dentárias",
+    "entrada_primaria": "Destruição localizada e progressiva das estruturas do dente.",
+    "seguranca": "A homeopatia foca na susceptibilidade do dente (constituição) e não substitui o cuidado mecânico do dentista.",
+    "diagnostico_diferencial": [
+      { "if": "Cárie do colo AND dentes de forma quadrada AND constituição carbônica", "then": "Calcarea carbonica" },
+      { "if": "Perda do esmalte dentário AND dentes assimétricos AND hiperlaxidão ligamentar", "then": "Calcarea fluorica" },
+      { "if": "Criança em surto de crescimento rápido AND dentes retangulares com grande eixo vertical", "then": "Calcarea phosphorica" },
+      { "if": "Dentes de leite que cariam ao brotar AND forma de cunha AND sangramento gengival AND hálito fétido", "then": "Kreosotum" },
+      { "if": "Cárie de surgimento rápido AND fístula dentária AND agravamento pelo calor", "then": "Fluoricum acidum" },
+      { "if": "Abcesso dentário endurecido AND periostite maxilar AND inchaço", "then": "Hekla lava" },
+      { "if": "Durante a gravidez AND presença de cloasma", "then": "Sepia officinalis" },
+      { "if": "Agravamento ao aspirar ar frio AND melhora pelo calor AND fístula dentária", "then": "Silicea" },
+      { "if": "Cáries nos lados dos dentes", "then": "Staphysagria" },
+      { "if": "Cáries da raiz", "then": "Thuya occidentalis" }
+    ]
+  },
+  {
+    "enfermidade": "Catarata",
+    "entrada_primaria": "Opacificação do cristalino causando diminuição progressiva e indolor da acuidade visual, diplopia monocular e ofuscamento.",
+    "seguranca": "Não contar com cura. O tratamento visa apenas a lentificação do processo. Avaliação oftalmológica é indispensável.",
+    "diagnostico_diferencial": [
+      { "if": "Impressão de ver através de nevoeiro AND hemiopia vertical AND paralisia de nervos motores oculares (ptose)", "then": "Causticum" },
+      { "if": "Catarata traumática AND fotofobia intensa AND lacrimejamento", "then": "Conium maculatum" },
+      { "if": "Associada a coriorretinite AND ambliopia", "then": "Naphtalinum" },
+      { "if": "Catarata periférica com estrias finas AND origem diabética AND fadiga visual", "then": "Natrum muriaticum" },
+      { "if": "Catarata nuclear (central) AND impressão de véu na claridade AND letras parecem vermelhas AND melhora ao colocar a mão em viseira", "then": "Phosphorus" },
+      { "if": "Catarata periférica com estrias finas lembrando a graduação de um relógio", "then": "Secale cornutum" },
+      { "if": "Imediatamente pós-operação para evitar inflamação", "then": "Aconitum napellus" },
+      { "if": "Capsular no início AND astenopia AND manchas amarelas diante dos olhos", "then": "Ammonium muriaticum" },
+      { "if": "Contusão da íris após operação", "then": "Arnica montana" },
+      { "if": "Senil AND laxidão ligamentar AND fibromas de dureza pétrea", "then": "Calcarea fluorica" },
+      { "if": "Capsulolenticular mole AND aumento do volume do cristalino", "then": "Colchicum autumnale" },
+      { "if": "Quemose após operação", "then": "Guarea trichiloides" },
+      { "if": "Visão perturbada quando a transpiração dos pés se interrompe", "then": "Silicea" },
+      { "if": "Cortical AND visão de halo em torno da lâmpada", "then": "Sulfur" }
+    ]
+  },
+  {
+    "enfermidade": "Caxumba",
+    "entrada_primaria": "Infecção benigna (Myxovirus parotidis) com tropismo glandular (parótidas, testículos, ovários, pâncreas).",
+    "seguranca": "Risco de sinais meníngeos (15%) e encefalite (0,5%). Contagiosidade máxima na semana anterior aos sintomas.",
+    "diagnostico_diferencial": [
+      { "if": "Inchaço parotídeo com hipersialorréia AND hálito fétido AND marca dos dentes na língua AND febre noturna", "then": "Mercurius solubilis" },
+      { "if": "Metástase da caxumba: mamite ou orquite", "then": "Pulsatilla" },
+      { "if": "Inchaço parotídeo com triângulo vermelho e liso na ponta da língua AND herpes concomitante", "then": "Rhus toxicodendron" },
+      { "if": "Vermelhidão local AND febre com abatimento e resmungos", "then": "Belladonna" },
+      { "if": "Aspecto violáceo AND hipersensibilidade ao toque", "then": "Lachesis mutus" },
+      { "if": "Complicação sob forma de pancreatite", "then": "Phosphorus" },
+      { "if": "Preventivo em caso de epidemia informada", "then": "Trifolium repens" }
+    ]
+  },
+  {
+    "enfermidade": "Cefaléias e Enxaquecas",
+    "entrada_primaria": "Cefaléia (dor localizada); Enxaqueca (unilateral, latejante, com náuseas/vômitos). Pode ter aura (escotoma cintilante, parestesias).",
+    "seguranca": "Diferenciar enxaqueca comum (85-90%) da enxaqueca com aura. Sintomas inexplicáveis ou inesperados (como fome durante a dor) são fundamentais.",
+    "diagnostico_diferencial": [
+      { "if": "Sensação de cabeça em nuvem ou que o vértice se abre AND dismenorréia AND loquacidade AND medo de enlouquecer pela dor AND melhora pelo frio", "then": "Actæa racemosa" },
+      { "if": "Intensa e latejante AND midríase e fotofobia AND calor radiante nas bochechas AND agrava por abalos/luz/barulho AND melhora no escuro", "then": "Belladonna" },
+      { "if": "Por constipação AND agrava ao menor movimento dos olhos AND melhora por pressão forte e repouso", "then": "Bryonia alba" },
+      { "if": "Occipital AND enxaqueca com aura neurológica (formigamento, vertigem) AND agrava em meios de transporte AND torpor intelectual", "then": "Cocculus indicus" },
+      { "if": "Oftálmica com visão perturbada prévia AND pálpebras pesadas AND rosto vermelho escuro AND urina incolor e abundante ao fim da crise", "then": "Gelsemium sempervirens" },
+      { "if": "Hiperemia violenta pós-insolação AND batimento das carótidas AND desorientação AND melhora ao ar livre", "then": "Glonoimum" },
+      { "if": "Tipo prego cravado após contrariedade AND agrava por odores (café/tabaco) AND suspira involuntariamente", "then": "Ignatia amara" },
+      { "if": "Frontal AND aura visual (fosfenos) AND vômitos biliosos/ácidos AND queimação em todo o tubo digestivo", "then": "Iris versicolor" },
+      { "if": "Frontal com dores ósseas em pontos AND crostas no nariz AND melhora ao comer", "then": "Kalium bichromicum" },
+      { "if": "Martelante por trabalho intelectual AND sede AND agrava à beira-mar e pelo sol AND pessoa reservada/pouco comunicativa", "then": "Natrum muriaticum" },
+      { "if": "Oftálmica com hipersialorréia e diarréia biliosa", "then": "Natrum sulfuricum" },
+      { "if": "Tipo prego cravado por excessos (álcool/café) AND arrepios ao se descobrir AND irritabilidade", "then": "Nux vomica" },
+      { "if": "Fome, euforia ou bem-estar antes da cefaléia AND vista turva prévia AND alternância com eczema", "then": "Psorinum" },
+      { "if": "Hemicrania DIREITA AND irradia do occipício para olho direito AND bochechas tipo boneca russa AND melhora por eructações", "then": "Sanguinaria canadensis" },
+      { "if": "Suborbitária ESQUERDA AND pálida/olheiras AND aversão a alimentos/odores AND melhora ao comer AND catamenial", "then": "Sepia officinalis" },
+      { "if": "Occipital crônica com cervicalgia e frialdade AND melhora com bandagem quente AND suor fétido nos pés", "then": "Silicea" },
+      { "if": "Hemicrania ESQUERDA AND irradia do occipício para olho esquerdo AND agrava ao meio-dia AND batimentos cardíacos elevam a roupa", "then": "Spigelia anthelmia" },
+      { "if": "Latejante, periódica AND sensação de calor no alto da cabeça", "then": "Sulfur" },
+      { "if": "Nevrálgica acima do olho ESQUERDO AND véspera da menstruação AND dismenorréia violenta com dores no ovário esquerdo", "then": "Xanthoxylum fraxineum" }
+    ]
+  },
+  {
+    "enfermidade": "Cólica Hepática, Litíase Biliar",
+    "entrada_primaria": "Dores intensas no hipocôndrio direito (tipo peso), irradiadas para ombro ou costas, com náuseas e dispepsia.",
+    "seguranca": "Cálculos superiores a 3 cm, litíase 'porcelana' ou obstrução da via biliar principal exigem cirurgia. Chelidonium é preventivo da formação de cálculos.",
+    "diagnostico_diferencial": [
+      { "if": "Dores violentas, ocorrência e desaparecimento bruscos AND midríase AND agrava deitado sobre o Lado Direito AND sensação de calor no abdômen", "then": "Belladonna" },
+      { "if": "Dores do tipo borbulhamento ou picadas AND irradia para qualquer direção (ombro ESQUERDO ou estômago) AND microlitíase AND constipação por insuficiência biliar", "then": "Berberis vulgaris" },
+      { "if": "Irradiação característica ao ângulo inferior da omoplata DIREITA AND deseja leite quente AND tudo amarelo (fezes ouro, urina cerveja)", "then": "Chelidonium majus" },
+      { "if": "Hipersensibilidade ao toque leve (roçar) mas melhora por pressão forte AND abaulamento que não melhora por emissão de gases", "then": "China rubra" },
+      { "if": "Dores tipo câimbras violentas que dobram o paciente em dois AND melhora pelo calor e pressão forte AND irritabilidade pela dor", "then": "Colocynthis" },
+      { "if": "Cãibras irradiadas em todas as direções (costas, dedos, ouvidos, peito) AND melhora quando o paciente se endireita ou se inclina para trás", "then": "Dioscorea villosa" },
+      { "if": "Mesmos sintomas que o Colocynthis, porém sem a conotação de irritabilidade mental", "then": "Magnesia phosphorica" },
+      { "if": "Dores sob colecistite AND febre de predominância noturna com suor fétido que não alivia AND língua com marca dos dentes AND agrava deitado sobre o Lado Direito", "then": "Mercurius solubilis" },
+      { "if": "Dores durante inspiração profunda AND impossível suportar roupa apertada AND vômitos constantes de bile AND antecedentes de enxaqueca biliosa", "then": "Natrum sulfuricum" },
+      { "if": "Cãibras repentinas irradiadas ao ombro AND língua carregada na metade posterior AND irritabilidade AND conseqüências do abuso de gordura, álcool e café", "then": "Nux vomica" },
+      { "if": "Dores com congestão do fígado melhoradas pela fricção AND diarreia esgotante em jatos AND melhora quando o paciente está deitado sobre o ventre", "then": "Podophyllum peltatum" },
+      { "if": "Dores picantes ao menor movimento (tiram o fôlego) AND melhora pela imobilidade absoluta e pressão forte AND deitado Lado Direito", "then": "Bryonia alba" },
+      { "if": "Dores surdas que melhoram por inspiração profunda AND agrava deitado sobre o Lado Esquerdo AND fezes de cor argilosa", "then": "Carduus marianus" },
+      { "if": "Paciente descreve dores como insuportáveis AND agitação e rabugice AND agravamento pelo calor", "then": "Chamomilla vulgaris" },
+      { "if": "Litíase biliar com enxaquecas biliosas periódicas AND pigmentos biliares nas urinas", "then": "Chionanthus virginicus" },
+      { "if": "Sensação de tensão no hipocôndrio direito com abaulamento importante AND dispepsia flatulenta AND sonolência pós-prandial que agrava com a sesta", "then": "Lycopodium clavatum" },
+      { "if": "Dores com sensação de peso AND paciente pálida com olheiras AND astenia que melhora pelo exercício e distração", "then": "Sepia officinalis" },
+      { "if": "Cólica hepática com suores frios na testa AND vômitos em jato AND abdômen frio ao toque", "then": "Veratrum album" }
+    ]
+  },
+  {
+    "enfermidade": "Cólica Nefrética, Litíase Urinária",
+    "entrada_primaria": "Dores lombares intensas, unilaterais, irradiadas para os órgãos genitais externos, acompanhadas de sinais digestivos (náuseas) e urinários (disúria, hematúria).",
+    "seguranca": "A litotrícia extracorpórea é o método de escolha. Pesquisa de fragmentos residuais deve ser sistemática 3 meses após o tratamento.",
+    "diagnostico_diferencial": [
+      { "if": "Sensação de borbulhamento ou inchação no espaço renal ou ureteres AND dores irradiadas em todas as direções (abdômen, coxas) AND sedimento vermelho tijolo (uratos) AND facilita eliminação de fragmentos pós-litotrícia", "then": "Berberis vulgaris" },
+      { "if": "Dores tipo câimbras que melhoram pelo calor e pressão forte AND paciente dobra-se em dois AND retenção urinária AND irritabilidade", "then": "Colocynthis" },
+      { "if": "Dores tipo câimbras irradiadas para o pênis, cordão espermático ou testículo AND melhora ao inclinar-se para trás", "then": "Dioscorea villosa" },
+      { "if": "Mesmo quadro que o Colocynthis mas sem irritabilidade", "then": "Magnesia phosphorica" },
+      { "if": "Dores espasmódicas irradiadas aos genitais AND impossibilidade de deitar sobre o Lado Esquerdo AND micção gota a gota AND língua saburrosa na metade posterior", "then": "Nux vomica" },
+      { "if": "Dores nos espaços renais irradiadas para a uretra AND dores no fim da micção AND urinas floculadas com areia ou pequenos saibros", "then": "Sarsaparilla" },
+      { "if": "Espasmo ureteral com tenesmo de ocorrência brusca AND urinas raras AND agravamento pelos abalos", "then": "Belladonna" },
+      { "if": "Litíase úrica em paciente gotoso AND urinas marrom escuro com odor fétido e repulsivo (como de cavalo)", "then": "Benzoicum acidum" },
+      { "if": "Medicamento de fundo AND obesidade AND transpiração do couro cabeludo AND tendência a sentir frio facilmente", "then": "Calcarea carbonica" },
+      { "if": "Disúria maior com queimação violenta ou sensação de corte na bexiga e uretra antes, durante e após a micção AND hematúria", "then": "Cantharis" },
+      { "if": "Catarro da bexiga com tenesmo AND sedimento urinário cor vermelho tijolo AND prurido do meato", "then": "Coccus cacti" },
+      { "if": "Litíase renal com cistite crônica AND queimação no colo da bexiga AND muco-pus e ácido úrico nas urinas", "then": "Epigæa repens" },
+      { "if": "Medicamento de fundo AND paciente que não bebe água o suficiente", "then": "Natrum muriaticum" },
+      { "if": "Vômitos violentos durante a crise AND sedimento vermelho nas urinas", "then": "Ocimum canum" },
+      { "if": "Presença de oxalatos nas urinas AND necessidade imperiosa de urinar ao pensar nisso", "then": "Oxalicum acidum" },
+      { "if": "Dores irradiadas à glande e coxas AND micção só é possível em posição genupeitoral", "then": "Pareira brava" },
+      { "if": "Presença de fosfatos nas urinas AND paciente esgotado", "then": "Phosphoricum acidum" },
+      { "if": "Presença de fosfatos nas urinas AND sensação de calor na região renal AND diátese hemorrágica", "then": "Phosphorus" },
+      { "if": "Sedimento vermelho (uratos) que adere ao recipiente AND sensação de peso na bexiga AND astenia com olheiras", "then": "Sepia officinalis" },
+      { "if": "Litíase urinária sob forma de areia AND associação a prostatite ou uretrite crônica", "then": "Silicea" },
+      { "if": "Fosfatos na urina AND urinas claras mas de mau odor AND sensibilidade dos espaços renais à pressão", "then": "Solidago virga aurea" },
+      { "if": "Uratos na urina AND queimação na uretra durante a micção AND paciente pletórico e jovial", "then": "Sulfur" },
+      { "if": "Urina floculosa e purulenta AND aspecto lodoso AND a urina pode estar verde", "then": "Uva ursi" }
+    ]
+  },
+  {
+    "enfermidade": "Colite",
+    "entrada_primaria": "Inflamação do cólon. Sintomas: dores, flatulência, abaulamento abdominal e alternância de diarreia e constipação.",
+    "seguranca": "Diagnóstico diferencial entre colite infecciosa (bacteriana/amebiana) e retocolite úlcero-hemorrágica.",
+    "diagnostico_diferencial": [
+      { "if": "Sintomas do Mercurius solubilis porém mais violentos AND tenesmo retal importante", "then": "Mercurius corrosivus" },
+      { "if": "Diarreia com tenesmo AND língua guarda a marca dos dentes AND fezes contendo muco", "then": "Mercurius solubilis" },
+      { "if": "Colite crônica AND diarreia após o desjejum AND sensação de alegria e hilaridade após a defecação", "then": "Natrum sulfuricum" },
+      { "if": "Borborigmos do Cólon DIREITO antes das fezes AND diarreia profusa em jato AND sensação de vazio abdominal após defecar AND melhora deitado de ventre", "then": "Podophyllum peltatum" },
+      { "if": "Catarro do reto com síndrome disenteriforme AND incontinência esfincteriana", "then": "Aloe socotrina" }
+    ]
+  },
+  {
+    "enfermidade": "Condilomas Anogenitais",
+    "entrada_primaria": "Pequenos tumores benignos cutaneomucosos no ânus ou órgãos genitais ('cristas de galo'), devidos ao HPV.",
+    "seguranca": "Muito contagioso; período de incubação de 1 a 6 meses. Pertencem ao modo reacional da sicose.",
+    "diagnostico_diferencial": [
+      { "if": "Condilomas vermelhos localizados no prepúcio AND sangram facilmente", "then": "Cinnabaris" },
+      { "if": "Em forma de couve-flor AND sangram facilmente ao toque AND dores picantes como por uma farpa AND concomitância de fissura anal", "then": "Nitricum acidum" },
+      { "if": "Esponjosos e dolorosos ao toque AND paciente com obesidade ginóide AND unhas onduladas e moles", "then": "Thuya occidentalis" },
+      { "if": "Bioterápico da sicose utilizado para completar o tratamento de fundo", "then": "Medorrhinum" },
+      { "if": "Condilomas carnudos em indivíduo com retenção de água nos tecidos", "then": "Natrum sulfuricum" },
+      { "if": "Condilomas anogenitais pruriginosos", "then": "Sabina" },
+      { "if": "Condilomas moles em torno da glande", "then": "Sepia officinalis" },
+      { "if": "Condilomas hipersensíveis ao toque", "then": "Staphysagria" }
+    ]
+  },
+  {
+    "enfermidade": "Conjuntivite",
+    "entrada_primaria": "Inflamação da conjuntiva por alergia, infecção ou irritação. Sintomas: vermelhidão, sensação de areia e prurido.",
+    "seguranca": "A inflamação edematosa pode formar uma dobra em torno da córnea (quemose).",
+    "diagnostico_diferencial": [
+      { "if": "Muito inflamatória após golpe de frio seco ou corpo estranho AND fotofobia AND febre intensa com agitação", "then": "Aconitum napellus" },
+      { "if": "No curso de coriza com rinorreia aquosa irritante AND lacrimejamento NÃO irritante", "then": "Allium cepa" },
+      { "if": "Conjuntivite alérgica com quemose AND edema rosado das pálpebras (especialmente as superiores) AND melhora por compressas frias", "then": "Apis mellifica" },
+      { "if": "Hemorragia subconjuntival de origem traumática", "then": "Arnica montana" },
+      { "if": "Febre elevada (> 40º) AND olhos injetados e brilhantes AND midríase e olhar fixo AND convulsões que agravam por abalos na cama", "then": "Belladonna" },
+      { "if": "Conjuntivite pustulosa com aspecto de granulações AND sensação de calor nos olhos à noite", "then": "Croton tiglium" },
+      { "if": "Lacrimejamento incessante, abundante e queimante que escoria as bochechas AND pus abundante AND piscamento permanente das pálpebras", "then": "Euphrasia officinalis" },
+      { "if": "Pus abundante e irritante que provoca vesículas na pálpebra INFERIOR AND quemose e hipópio AND agrava ao ar livre e ao toque", "then": "Hepar sulfuris calcareum" },
+      { "if": "Pus escoriante e fluido AND ulcerações superficiais AND fotofobia AND dores agravadas à noite", "then": "Mercurius solubilis" },
+      { "if": "Pus espesso NÃO irritante AND agravamento pelo calor de um cômodo quente ou pelo vento", "then": "Pulsatilla" },
+      { "if": "Conjuntivite flictenular com lacrimejamento em jato ao separar as pálpebras AND quemose AND conseqüência de ter estado molhado", "then": "Rhus toxicodendron" },
+      { "if": "Conjuntiva muito seca, sem corrimento, eventualmente ulcerada", "then": "Alumina" },
+      { "if": "Conjuntivite granular com inchaço e vermelhidão das carúnculas AND muco-pus abundante", "then": "Argentum nitricum" },
+      { "if": "Crônica ou com recaídas AND lacrimejamento abundante e quente irritando a pálpebra INFERIOR AND edema branco das pálpebras AND dores em queimação", "then": "Arsenicum album" }
+    ]
+  },
+  {
+    "enfermidade": "Convulsões Febris",
+    "entrada_primaria": "Crises brutais em crianças (geralmente entre 1 e 3 anos), tônicas ou clônicas, durante episódios de febre.",
+    "seguranca": "Não ignorar risco de encefalite herpética ou meningite bacteriana. Se o resultado não for imediato, passar para tratamento alopático.",
+    "diagnostico_diferencial": [
+      { "if": "Febre > 40º brutal AND rosto vermelho e quente AND midríase e olhar fixo AND agrava se esbarra na cama (abalos)", "then": "Belladonna" },
+      { "if": "No curso de encefalite AND reviramento dos olhos AND cabeça rola para o lado ou afunda no travesseiro AND mastigação e ranger de dentes AND suspiros inconscientes", "then": "Helleborus niger" },
+      { "if": "Movimentos convulsivos leves e giratórios AND agravamento à visão da luz ou objeto brilhante", "then": "Stramonium" },
+      { "if": "Convulsões no curso de meningite", "then": "Apis mellifica" },
+      { "if": "Violentas com projeção brutal da cabeça para trás AND agravamento quando se toca no paciente", "then": "Cicuta virosa" },
+      { "if": "Ao menor toque AND febre com calafrios quando se descobre AND bochechas vermelhas sem calor radiante", "then": "Nux vomica" },
+      { "if": "No curso de febre eruptiva em evolução AND estado de estupor AND lentidão para compreender", "then": "Zincum metallicum" }
+    ]
+  },
+  {
+    "enfermidade": "Constipação",
+    "entrada_primaria": "Evacuação difícil ou rara das matérias fecais (menos de 3 vezes por semana).",
+    "seguranca": "Antes de tratar como crônica, pesquisar doenças orgânicas: câncer colorretal, fissura anal, hipotireoidismo ou diabetes.",
+    "diagnostico_diferencial": [
+      { "if": "Por secura e paresia do reto AND esforço excessivo para expulsar fezes moles AND fezes argilosas e aderentes AND crianças com leite artificial", "then": "Alumina" },
+      { "if": "Sem vontades AND secura da mucosa retal AND fezes grandes, secas e duras (como queimadas) AND lábios secos com sede AND irritabilidade", "then": "Bryonia alba" },
+      { "if": "Fezes em bolotas AND agravamento no litoral", "then": "Magnesia muriatica" },
+      { "if": "Fezes secas e em bolas AND medicamento de fundo para personalidade obsessiva", "then": "Natrum muriaticum" },
+      { "if": "Espasmódica com falsas necessidades ineficazes AND língua carregada na metade posterior AND paciente sedentário e irritável", "then": "Nux vomica" },
+      { "if": "Paresia ou inércia intestinal AND fezes permanecem longo tempo sem vontade de evacuar AND fezes pretas em bolas AND vômitos fecalóides", "then": "Opium" },
+      { "if": "Hemorróidas com sensação de agulhas no reto AND dor lombossacral", "then": "Æsculus hippocastanum" },
+      { "if": "Idoso acamado que não consegue defecar na presença de outras pessoas", "then": "Ambra grisea" },
+      { "if": "Fezes semelhantes a giz AND paciente sente-se melhor quando está constipado", "then": "Calcarea carbonica" },
+      { "if": "Paresia retal AND fezes passam melhor EM PÉ (saem no momento em que a criança levanta do pinico)", "then": "Causticum" },
+      { "if": "Estase portal com hemorróidas sangrantes AND sensação de agulhas no reto AND durante a gravidez", "then": "Collinsonia canadensis" },
+      { "if": "Grandes fezes envoltas em muco AND fissura anal AND paciente obeso e friorento", "then": "Graphites" },
+      { "if": "Crônica sem falsas vontades AND abuso de laxantes AND emissão de muco amarelo", "then": "Hydrastis canadensis" },
+      { "if": "Constipação em viagens AND vontade sentida na parte inicial do intestino e não na terminal", "then": "Ignatia amara" },
+      { "if": "Com cefaléia e abundante emissão de urina", "then": "Lac defloratum" },
+      { "if": "Falsas vontades ineficazes por espasmo anal AND dispepsia flatulenta AND apetite saciado rapidamente", "then": "Lycopodium clavatum" },
+      { "if": "Viajantes que mudam de alimentação ou emigrantes AND fezes aderem ao reto", "then": "Platina" },
+      { "if": "Espasmódica de origem parética AND espasmos dos grandes retos", "then": "Plumbum metallicum" },
+      { "if": "Fezes laboriosas e prolapso retal AND conseqüência de traumatismo", "then": "Ruta graveolens" },
+      { "if": "Durante a gravidez com sensação de bola no reto", "then": "Sepia officinalis" },
+      { "if": "Fezes 'em mola' (descem e voltam para o reto) AND grandes esforços para evacuar", "then": "Silicea" },
+      { "if": "Ânus vermelho e brilhante AND alternância de diarreia e constipação", "then": "Sulfur iodatum" }
+    ]
+  },
+	{
+	  "enfermidade": "Coqueluche",
+	  "entrada_primaria": "Doença infecciosa traqueobrônquica muito contagiosa devida à Bordetella pertussis [1]. Traduz-se por acessos de tosse quintosa que termina por uma retomada da respiração, dita 'canto do galo', durando várias semanas [1].",
+	  "seguranca": "A vacinação generalizada mudou o prognóstico, mas a doença reaparece sob formas atípicas, como tosse espasmódica não quintosa [1]. O modo reacional é individual, podendo exigir receitas diferentes para membros da mesma família em uma mesma epidemia [2].",
+	  "diagnostico_diferencial": [
+		{ "if": "Início do quadro ou preventivo em epidemia AND falta de ar AND rouquidão à noitinha AND sensação de queimação no peito", "then": "Carbo vegetabilis [3]" },
+		{ "if": "Tosse com expectoração de muco tipo clara de ovo, muito abundante e tenaz, pendendo em longos filamentos a partir da boca", "then": "Coccus cacti [3]" },
+		{ "if": "Sufocação e esgotamento ANTES da quinta AND paroxismos subintrantes AND tosse em 'metralhadora' AND rosto que se torna púrpura", "then": "Corallium rubrum [4]" },
+		{ "if": "Tosse ressoante por cócega na laringe AND voz rouca AND paroxismos subintrantes que impedem a retomada respiratória AND sufocação durante a quinta seguida de retomada inspiratória ('canto do galo') AND sensação de constricção no peito AND paciente segura o tórax ou ventre ao tossir AND vômitos alimentares/aquosos (por vezes estriados de sangue) AND epistaxe AND agrava ao se esticar ou beber", "then": "Drosera rotundifolia [4]" },
+		{ "if": "Paciente sufoca e se retesa durante a quinta AND sensação de constricção do peito AND náuseas no final da quinta AND expectoração de muco AND vômitos mucosos/alimentares com língua LIMPA AND epistaxe", "then": "Ipeca [2]" },
+		{ "if": "Fase inicial da doença AND espirros no final da quinta", "then": "Belladonna [5]" },
+		{ "if": "Acompanhada de convulsões AND a criança chora durante a quinta", "then": "Cina [5]" },
+		{ "if": "Tosse espasmódica violenta que interrompe a respiração e impede de falar AND melhora ao beber água fria", "then": "Cuprum metallicum [5]" },
+		{ "if": "Expectoração de mucosidades espessas e verdes", "then": "Kalium bichromicum [5]" },
+		{ "if": "Quadro muito severo AND tosse espasmódica violenta por espasmo laríngeo (como se cada paroxismo fosse o último) AND grande sufocação bloqueando a expiração AND face cianótica AND ocorrência de falsas vias alimentares", "then": "Mephites putorius [5]" },
+		{ "if": "Bioterápico para encurtar a fase aguda OR útil nas seqüelas ('paciente que não está bem depois da coqueluche')", "then": "Pertussinum [6]" },
+		{ "if": "Tosse violenta seqüelar que retorna cada vez que o paciente sente frio", "then": "Sanguinaria canadensis [6]" },
+		{ "if": "Tosse crupal que melhora ao beber", "then": "Spongia tosta [6]" }
+	  ]
+	},
+	{
+		"enfermidade": "Cetose Periódica",
+		"entrada_primaria": "Antigamente denominada 'crise de acetona' ou 'vômitos acetonêmicos'. Crises recorrentes em crianças (3 a 9 anos) com vômitos incoercíveis, dores abdominais e astenia [1].",
+		"seguranca": "Pode ser a manifestação inicial de um diabetes insulinoprivo. A desidratação pode ocorrer em crises que duram de 24 a 36 horas [1].",
+		"diagnostico_diferencial": [
+		  { "if": "Crises de repetição AND criança com forte personalidade AND presença ou antecedente de eczema atópico", "then": "Lycopodium clavatum" },
+		  { "if": "Desejo de bebidas geladas AND água vomitada logo que reaquecida no estômago AND diarreia com mau cheiro", "then": "Phosphorus" },
+		  { "if": "Estado acetonêmico AND náuseas AND vômitos AND abaulamento abdominal AND presença de acetona nas urinas", "then": "Senna" },
+		  { "if": "Criança fatigada com palidez e olheiras", "then": "Sepia officinalis" },
+		  { "if": "Sede intensa de pequenos goles frequentes de água fria AND dores em queimação que melhoram pelo calor", "then": "Arsenicum album" },
+		  { "if": "Associação com enxaquecas de repetição", "then": "Psorinum" }
+		]
+  },
+  {
+    "enfermidade": "Ciática",
+    "entrada_primaria": "Dor no trajeto do nervo ciático e seus ramos por conflito disco-radicular (áreas de L5 ou S1) [2].",
+    "seguranca": "Forma paralisante (1 a 3% das ciáticas) apresenta déficit motor. A anamnese deve buscar detalhes que o paciente não relata espontaneamente [2, 3].",
+    "diagnostico_diferencial": [
+      { "if": "Sensação de tendões muito curtos AND agravamento em posição sentada AND melhora em posição alongada", "then": "Ammonium muriaticum" },
+      { "if": "Ciática reumática AND agravamento pelo menor movimento AND melhora pela pressão forte AND melhora deitado sobre o lado dolorido", "then": "Bryonia alba" },
+      { "if": "Dores tipo câimbras intensas AND paciente precisa se sentar para conseguir se virar na cama", "then": "Nux vomica" },
+      { "if": "Paralisia ciática com amiotrofia AND dores tipo câimbras", "then": "Plumbum metallicum" },
+      { "if": "Após excesso de exercício físico OR após ter estado molhado AND melhora pelo movimento e pelo calor", "then": "Rhus toxicodendron" },
+      { "if": "Sensação de queimação AND agravamento à noite AND melhora pelo calor", "then": "Arsenicum album" },
+      { "if": "Dores que ocorrem e desaparecem repentinamente AND agravamento pelos abalos", "then": "Belladonna" },
+      { "if": "Dores tipo câimbras AND agravamento inclinado para frente AND melhora inclinado para trás AND agrava pelo movimento", "then": "Dioscorea villosa" },
+      { "if": "Provocada por mudanças de tempo AND melhora com perna flexionada AND melhora pela marcha", "then": "Kalium bichromicum" },
+      { "if": "Agravamento na posição deitada AND agravamento deitado sobre o Lado Dolorido AND melhora pela marcha AND agravamento à noite", "then": "Kalium iodatum" },
+      { "if": "Sensação de rachadura dos ossos OR sensação de ter sido espancado", "then": "Ruta graveolens" }
+    ]
+  },
+  {
+    "enfermidade": "Cicatrizes",
+    "entrada_primaria": "Processo de reparação de feridas. Pode envolver dor crônica ou formação de queloides [4].",
+    "seguranca": "Obstáculos mecânicos limitam o tratamento medicamentoso. A pomada de Graphites é preta, o que dificulta a aplicação regular [4, 5].",
+    "diagnostico_diferencial": [
+      { "if": "Cicatriz antiga que se reaviva e torna-se dolorosa (especialmente velha queimadura) AND ferida que se prolonga", "then": "Causticum" },
+      { "if": "Preventivo de queloides pós-intervenção cirúrgica AND para atenuar cicatrizes velhas endurecidas", "then": "Graphites" },
+      { "if": "Traumatismo de regiões finamente inervadas AND dor em velhas cicatrizes", "then": "Hypericum perforatum" },
+      { "if": "Elimina supuração de ferida AND queloides doloridos AND antiga cicatriz com fistulação", "then": "Silicea" },
+      { "if": "Cicatrizes velhas que se tornam vermelhas nas bordas AND cobertura de vesículas pruriginosas AND ameaça de abrir úlcera", "then": "Fluoricum acidum" },
+      { "if": "Cicatriz de úlcera cutânea deprimida e dolorida", "then": "Kalium bichromicum" },
+      { "if": "Cicatriz antiga que se torna vermelha, reabre e sangra", "then": "Lachesis mutus" },
+      { "if": "Cicatriz dolorida nas mudanças de tempo", "then": "Nitricum acidum" },
+      { "if": "Exsudação de sangue negro a partir de cicatriz antiga", "then": "Phosphorus" },
+      { "if": "Dores repuxantes na cicatriz de abcesso do seio", "then": "Phytolacca decandra" },
+      { "if": "Prescrição a título sistemático para tratamento do tecido cicatricial", "then": "Thiosinaminum" }
+    ]
+  },
+  {
+    "enfermidade": "Cirrose",
+    "entrada_primaria": "Doença crônica com fibrose do parênquima hepático. Fígado acobreado, duro e bosselado [6].",
+    "seguranca": "Phosphorus é quase específico, mas a homeopatia é proposta como complemento à terapia clássica para retardar complicações como varizes esofagianas [7, 8].",
+    "diagnostico_diferencial": [
+      { "if": "Fígado hipertrófico AND etilista antigo depressivo (vinho triste) AND agrava psiquismo pelo vinho AND hemorragias diversas", "then": "Arsenicum album" },
+      { "if": "Fígado 'tacheado' AND ascite AND idoso eufórico com desejos sexuais constantes AND indiferente aos próximos", "then": "Fluoricum acidum" },
+      { "if": "Medicamento-tipo da cirrose (biliar ou etílica) AND esteatose hepática AND fígado atrófico ou hipertrófico AND icterícia AND diátese hemorrágica AND elevação da taxa de protrombina", "then": "Phosphorus" },
+      { "if": "Cirrose descompensada AND ascite com edema AND anasarca AND oligúria AND sede intensa", "then": "Apocynum cannabinum" },
+      { "if": "Cirrose em paciente com síndrome melancólica", "then": "Aurum metallicum" },
+      { "if": "Cirrose da Doença de Wilson", "then": "Cuprum metallicum" },
+      { "if": "Hematêmese por varizes esofagianas AND sensação de tremores no estômago", "then": "Hamamelis virginiana" },
+      { "if": "Língua trêmula AND cirrose alcoólica AND faces violáceas AND loquacidade", "then": "Lachesis mutus" },
+      { "if": "Fígado atrófico ou hipertrófico dolorido ao toque AND dispepsia flatulenta AND ascite", "then": "Lycopodium clavatum" }
+    ]
+  },
+  {
+    "enfermidade": "Cisto do Ovário",
+    "entrada_primaria": "Neoformação de conteúdo líquido. Geralmente assintomático até atingir volume importante [9].",
+    "seguranca": "A homeopatia não representa tratamento completo, exceto em cistos funcionais [10].",
+    "diagnostico_diferencial": [
+      { "if": "Cisto endurecido AND dores picantes irradiadas às coxas AND agravamento após coito ou marcha AND Lado Direito", "then": "Apis mellifica" },
+      { "if": "Lado Direito AND regras que escoam somente à noite", "then": "Bovista gigantea" },
+      { "if": "Cisto endurecido no Lado Esquerdo", "then": "Bromum" },
+      { "if": "Dores que irradiam para as virilhas AND sensação de calor na região ovariana", "then": "Bufo rana" },
+      { "if": "Dores tipo punção enfiada no ovário irradiadas ao útero", "then": "Iodum" },
+      { "if": "Lado Direito grande e endurecido AND melhora por pressão forte AND melhora em companhia AND paciente com grande necessidade de aprovação", "then": "Palladium metallicum" }
+    ]
+  },
+  {
+    "enfermidade": "Colecistite",
+    "entrada_primaria": "Inflamação da vesícula biliar, aguda ou crônica (parede fibrosa e espessa) [11].",
+    "seguranca": "Desconfiar de simplificações como 'sintomas-chave'. O conjunto dos sintomas é o que importa para a decisão [12].",
+    "diagnostico_diferencial": [
+      { "if": "Febre elevada brutal AND bochechas vermelhas AND midríase AND agrava pela respiração ou abalos AND agrava deitado sobre o Lado Direito", "then": "Belladonna" },
+      { "if": "Dores irradiadas ao ângulo inferior da omoplata DIREITA AND agrava pela inspiração AND pele, conjuntivas, fezes (amarelo ouro) e urina amareladas", "then": "Chelidonium majus" },
+      { "if": "Dores no hipocôndrio direito com impossibilidade de deitar sobre o Lado Direito AND boca característica (hálito fétido, sialorreia, marca dos dentes) AND icterícia AND febre noturna com suor fétido", "then": "Mercurius solubilis" },
+      { "if": "Dores com icterícia AND diarreia com mau cheiro AND caso grave", "then": "Arsenicum album" },
+      { "if": "Febre com batimento das asas do nariz AND dores quando come até a saciedade", "then": "Lycopodium clavatum" },
+      { "if": "Colecistite crônica com língua geográfica", "then": "Taraxacum officinale" }
+    ]
+  },
+  {
+    "enfermidade": "Cólica Abdominal",
+    "entrada_primaria": "Dores paroxísticas localizadas nas vísceras abdominais [13].",
+    "seguranca": "Pode tratar-se de urgência cirúrgica fora do âmbito da homeopatia [13].",
+    "diagnostico_diferencial": [
+      { "if": "Após golpe de frio sobre o abdômen AND agitação", "then": "Aconitum napellus" },
+      { "if": "Durante a gestação AND dores pelos movimentos do feto AND sensação de que está atravessado", "then": "Arnica montana" },
+      { "if": "Dores repentinas AND agrava abalos AND melhora deitado sobre o ventre", "then": "Belladonna" },
+      { "if": "Por fermentação digestiva AND abaulamento causando dispneia AND constricção epigástrica AND melhora por eructações", "then": "Carbo vegetabilis" },
+      { "if": "Dores descritas como insuportáveis AND bochechas vermelhas AND suor quente AND após cólera AND melhora no colo (criança)", "then": "Chamomilla vulgaris" },
+      { "if": "Dores no hipocôndrio direito irradiadas para omoplata DIREITA AND língua amarela AND melhora após evacuação", "then": "Chelidonium majus" },
+      { "if": "Abaulamento que NÃO melhora por gases AND agrava toque leve (roçar) AND melhora pressão forte", "then": "China rubra" },
+      { "if": "Região umbilical AND dores tipo câimbras dobram o paciente ao meio AND após comer frutas ou cólera AND melhora calor", "then": "Colocynthis" },
+      { "if": "Cãibras irradiadas à distância AND melhora quando endireita ou inclina para trás", "then": "Dioscorea villosa" },
+      { "if": "Dor nervosa na fossa ilíaca direita (falsa apendicite) AND após contrariedade AND melhora inspiração profunda", "then": "Ignatia amara" },
+      { "if": "Cãibras dobram o paciente ao meio AND ausência de sintoma mental específico AND melhora calor", "then": "Magnesia phosphorica" },
+      { "if": "Dores 30 min após refeição AND obriga desapertar roupas AND língua saburrosa posterior AND sonolência pós-prandial", "then": "Nux vomica" },
+      { "if": "Sensação de congestão ou plenitude do fígado AND melhora por fricção", "then": "Podophyllum peltatum" },
+      { "if": "Dores e náuseas após refeição gordurosa", "then": "Pulsatilla" },
+      { "if": "Peso no hipocôndrio direito AND desejo de ácidos AND palidez e olheiras AND agrava pelo cheiro da comida", "then": "Sepia officinalis" },
+      { "if": "Dores devidas a vermes intestinais", "then": "Spigelia anthelmia" },
+      { "if": "Dores após constrangimento", "then": "Staphysagria" }
+    ]
+  },
+  {
+    "enfermidade": "Coriza",
+    "entrada_primaria": "Inflamação aguda da mucosa nasal. Manifesta-se como rinorreia, espirros e obstrução [14].",
+    "seguranca": "O tratamento homeopático dá conforto, mas não impede a passagem para a fase seguinte (ex: bronquite ou sinusite) [15, 16].",
+    "diagnostico_diferencial": [
+      { "if": "Coriza seca com febre intensa brutal em tempo frio e seco AND agitação AND medo da morte", "then": "Aconitum napellus" },
+      { "if": "Corrimento aquoso abundante, queimante e escoriante AND lacrimejamento NÃO irritante AND espirros ao entrar em cômodo quente", "then": "Allium cepa" },
+      { "if": "Nariz seco AND cefaleia quando o nariz para de escorrer AND agrava movimento olhos AND lábios secos com sede", "then": "Bryonia alba" },
+      { "if": "Instalação lenta AND corrimento aquoso AND cefaleia occipital AND embotamento AND aversão à companhia", "then": "Gelsemium sempervirens" },
+      { "if": "Inchação dolorosa do nariz AND corrimento purulento fétido AND espirros nas correntes de ar AND evolução para sinusite", "then": "Hepar sulfuris calcareum" },
+      { "if": "Corrimento purulento, esverdeado, espesso e elástico AND crostas no nariz AND sinusite frontal AND ar inspirado parece quente", "then": "Kalium bichromicum" },
+      { "if": "Início aquoso torna-se purulento e escoriante AND boca característica (hálito fétido, sialorreia, marca dos dentes) AND febre noturna AND evolução para bronquite", "then": "Mercurius solubilis" },
+      { "if": "Início por espirros AND corrimento tipo clara de ovo AND perda olfato/paladar AND herpes", "then": "Natrum muriaticum" },
+      { "if": "Espirros em salva de manhã AND nariz entupido à noite e escorrendo de dia AND língua saburrosa posterior AND agrava calor", "then": "Nux vomica" },
+      { "if": "Corrimento incolor vira amarelo e NÃO irritante AND entupido à noitinha e escorre de manhã AND melhora ao ar livre", "then": "Pulsatilla" },
+      { "if": "Espirros acordam o paciente AND sensação de frio entre as omoplatas", "then": "Ammonium muriaticum" },
+      { "if": "Coriza crônica ou de repetição AND sente frio a cada mudança de tempo AND suor na cabeça AND obesidade", "then": "Calcarea carbonica" },
+      { "if": "Catarro pós-nasal com muco abundante AND tosse metralhadora", "then": "Corallium rubrum" },
+      { "if": "Nariz entupido no tempo úmido", "then": "Dulcamara" },
+      { "if": "Com epistaxe AND bochechas pálidas (febre baixa) que ficam vermelhas (febre alta)", "then": "Ferrum phosphoricum" },
+      { "if": "Aquosa ao ar livre AND respiração asmática", "then": "Iodum" },
+      { "if": "Aquosa abundante AND sensação de cabeça grande AND laringe esfolada AND sinusite", "then": "Kalium iodatum" },
+      { "if": "Com catarro na trompa de Eustáquio", "then": "Kalium muriaticum" },
+      { "if": "Com etmoidite AND agravamento pela umidade", "then": "Natrum sulfuricum" },
+      { "if": "Após estar molhado ou tempo nevoso AND triângulo vermelho na ponta da língua AND herpes", "then": "Rhus toxicodendron" },
+      { "if": "Nariz seco tão entupido que respira pela boca AND suor profuso ao acordar sufocando", "then": "Sambucus nigra" },
+      { "if": "Crônica com edema das mucosas AND evolução para sinusite", "then": "Silicea" },
+      { "if": "Catarro crônico esverdeado AND agrava durante a evacuação", "then": "Thuya occidentalis" }
+    ]
+  },
+  {
+    "enfermidade": "Coxartrose",
+    "entrada_primaria": "Artrose do quadril. Dores na dobra inguinal, coxa ou joelho, ritmo mecânico, com amiotrofia do quadríceps [17].",
+    "seguranca": "Os obstáculos mecânicos (displasia, necrose da cabeça femoral) representam limites do tratamento medicamentoso [18].",
+    "diagnostico_diferencial": [
+      { "if": "Rigidez com repuxamento AND sensação de anca deslocada AND agrava pela tosse AND melhora tempo úmido", "then": "Causticum" },
+      { "if": "Cãibras por contraturas AND sensação de quadril deslocado AND agrava rotação interna AND melhora coxa dobrada sobre abdômen AND melhora calor", "then": "Colocynthis" },
+      { "if": "Irradiada ao joelho AND sensação de fraqueza do membro AND agrava deitado sobre o Lado Dolorido", "then": "Kalium carbonicum" },
+      { "if": "Osteonecrose asséptica da cabeça femoral", "then": "Phosphorus" },
+      { "if": "Dores psoas-ilíaco AND agrava movimento ativo mas passivo é possível", "then": "Allium sativum" },
+      { "if": "Lesão da cartilagem", "then": "Argentum metallicum" },
+      { "if": "Agrava movimento e umidade AND melhora ao se estirar", "then": "Calcarea carbonica" }
+    ]
+  },
+  {
+    "enfermidade": "Crescimento (Problemas do)",
+    "entrada_primaria": "Processo de desenvolvimento que depende de fatores genéticos, nutricionais e ambientais [19].",
+    "seguranca": "A homeopatia age estimulando as possibilidades reacionais e meios de defesa, podendo recuperar retardo mas respeitando limites genéticos [20].",
+    "diagnostico_diferencial": [
+      { "if": "Retardo psíquico e mental AND pequena altura AND lento intelectualmente", "then": "Baryta carbonica" },
+      { "if": "Crescimento lento e irregular AND cabeça grande AND lento para aprender a andar AND atraso no fechamento das fontanelas", "then": "Calcarea carbonica" },
+      { "if": "Epifisite do crescimento AND hiperlaxidão ligamentar", "then": "Calcarea fluorica" },
+      { "if": "Adolescente que acaba de ter impulso de crescimento rápido", "then": "Calcarea phosphorica" },
+      { "if": "Pequeno tamanho AND inteligente AND precisa de encorajamento", "then": "Silicea" },
+      { "if": "Inteligente parece mais velha que a idade AND fronte olímpica", "then": "Lycopodium clavatum" },
+      { "if": "Dores do crescimento no adolescente AND tendência depressiva após crescimento rápido", "then": "Phosphoricum acidum" },
+      { "if": "Pessoa ansiosa em crescimento rápido", "then": "Phosphorus" }
+    ]
+  },
+  {
+    "enfermidade": "Criptorquidia",
+    "entrada_primaria": "Ausência unilateral ou bilateral da migração dos testículos para o saco escrotal [21].",
+    "seguranca": "Indicado na pseudo-ectopia; nos outros casos a intervenção cirúrgica é indispensável antes dos 3 anos de idade [22].",
+    "diagnostico_diferencial": [
+      { "if": "Testículos não descidos ou mesmo atrofiados em criança em desenvolvimento", "then": "Aurum metallicum" },
+      { "if": "Retração do testículo por espasmo do cremaster", "then": "Nux vomica" },
+      { "if": "Testículos não descidos em criança retardada", "then": "Baryta carbonica" },
+      { "if": "Bioterápico de acompanhamento do tratamento de fundo", "then": "Luesinum" }
+    ]
+  },
+  {
+    "enfermidade": "Crohn (Doença de)",
+    "entrada_primaria": "Doença inflamatória intestinal [23].",
+    "seguranca": "O tratamento homeopático é o mesmo que para a Retocolite úlcero-hemorrágica (vide rubrica) [23].",
+    "diagnostico_diferencial": []
+  },
+  {
+    "enfermidade": "Crostas de Leite",
+    "entrada_primaria": "Dermite seborreica do recém-nascido. Crostas espessas e amarelas no couro cabeludo [23].",
+    "seguranca": "NÃO dar Hepar sulfuris calcareum se a criança for suscetível a otite, pelo efeito centrífugo do medicamento [24].",
+    "diagnostico_diferencial": [
+      { "if": "Criança em bom estado muscular AND cabeça redonda AND suor profuso na cabeça ao comer e dormir", "then": "Calcarea carbonica" },
+      { "if": "Estende-se como mancha de óleo AND mau odor", "then": "Hepar sulfuris calcareum" },
+      { "if": "Aspecto esbranquiçado AND prurido agravado à noite AND exsudação", "then": "Mezereum" },
+      { "if": "Zona vermelha e inflamatória em torno da erupção", "then": "Rhus toxicodendron" },
+      { "if": "Situadas no occipício e atrás das orelhas AND criança inteligente adiantada AND apetite saciado rapidamente", "then": "Lycopodium clavatum" },
+      { "if": "Com embaraçamento dos cabelos", "then": "Vinca minor" },
+      { "if": "Com tosse violenta AND cabelos colados e caindo", "then": "Viola tricolor" }
+    ]
+  },
+  {
+    "enfermidade": "Delírio",
+    "entrada_primaria": "Percepção errônea da realidade manifestada no discurso e comportamento. O delírio crônico é sistematizado e coerente. Tipos: paranoico, psicose alucinatória e parafrenias.",
+    "seguranca": "A homeopatia só pode ser empregada sozinha nos casos limites, ditos 'border-line'.",
+    "diagnostico_diferencial": [
+      { "if": "No curso de febre muito elevada AND bochechas vermelhas AND olhos brilhantes AND midríase AND hiperestesia dos sentidos AND visões de animais (cães) ou fantasmas AND uivos", "then": "Belladonna" },
+      { "if": "Crônico, tranquilo, com resmungos eróticos ou obscenos AND desconfiado (medo de ser envenenado) AND carfologia (arranha lençóis) AND gestos ridículos e riso estúpido", "then": "Hyoscyamus niger" },
+      { "if": "Sente-se perseguido ou é persecutório AND acredita-se designado para vingança divina AND mãos constantemente em movimento", "then": "Kalium bromatum" },
+      { "if": "No curso de síndrome de divisão com dismorfofobia AND estado de clarividência AND êxtase religioso AND exibicionismo", "then": "Phosphorus" },
+      { "if": "Violento, feroz e ruidoso AND tema religioso ou sexual AND face espantada com olhos arregalados AND tendência a morder AND força extrema AND melhora pela luz", "then": "Stramonium" },
+      { "if": "Ondas delirantes pós-parto AND loquacidade AND impressão de estar cercado por nuvem negra ou camundongos", "then": "Actæa racemosa" },
+      { "if": "Embriaguez alegre e loquaz AND faz versos ou canta AND recusa-se a responder perguntas AND ilusão de ser grande personagem AND sensação de que membros não lhe pertencem", "then": "Agaricus muscarius" },
+      { "if": "Paranoico com tema de perseguição AND falta de senso moral AND tendência a ser grosseiro e praguejar AND crueldade", "then": "Anacardium orientale" },
+      { "if": "Febre adinâmica (alcance tifoide) AND prostração AND impressão de que o corpo está em pedaços espalhados pela cama", "then": "Baptisia tinctoria" },
+      { "if": "Tranquilo, a propósito do trabalho AND resmungos AND acredita estar no trabalho e quer voltar para casa", "then": "Bryonia alba" },
+      { "if": "Furioso sobre tema erótico AND excitação sexual AND uivos", "then": "Cantharis" },
+      { "if": "Loquaz com mudança rápida do indivíduo AND tema erótico ou ciúme AND medo de ser envenenado AND sibilante AND agravamento após o sono", "then": "Lachesis mutus" },
+      { "if": "Com sensação de frio AND envolve todo mundo AND rasga as roupas AND coprofagia", "then": "Veratrum album" }
+    ]
+  },
+  {
+    "enfermidade": "Dengue",
+    "entrada_primaria": "Afecção viral (arbovírus Flavivirus) transmitida pelo Aedes aegypti. Hipertermia brutal (39º a 41º), artralgias, mialgias severas e exantema marmoreado pruriginoso.",
+    "seguranca": "As formas severas comportam síndrome de choque e hemorragias com trombopenia e hipovolemia.",
+    "diagnostico_diferencial": [
+      { "if": "Dores ósseas como se os ossos estivessem quebrados AND prostração generalizada AND dores nos globos oculares AND vômitos biliosos", "then": "Eupatorium perfoliatum" },
+      { "if": "Instalação lenta AND pálpebras pesadas/caídas AND rosto vermelho escuro AND tremores AND ausência de sede", "then": "Gelsemium sempervirens" },
+      { "if": "Dores musculares que melhoram pelo movimento AND agitação física AND herpes AND triângulo vermelho e liso na ponta da língua", "then": "Rhus toxicodendron" },
+      { "if": "Fase inicial AND febre elevada brutal AND pulso duro, cheio e rápido AND pele seca", "then": "Aconitum napellus" },
+      { "if": "Fase inicial AND bochechas vermelhas (calor radiante) AND cefaleia latejante AND midríase AND fotofobia AND a pele transpira", "then": "Belladonna" },
+      { "if": "Mucosas secas (lábios secos e craquelados) AND sede intensa AND cefaleia ao menor movimento dos olhos", "then": "Bryonia alba" },
+      { "if": "Útil em caso de trombocitopenia ou forma hemorrágica", "then": "Phosphorus" }
+    ]
+  },
+  {
+    "enfermidade": "Dente do Siso",
+    "entrada_primaria": "Terceiro molar de surgimento tardio (17-25 anos). Inflamação da gengiva que recobre o dente não erupcionado totalmente.",
+    "seguranca": "A extração pode causar complicações como nariz entupido à noite e surdez por otorréia.",
+    "diagnostico_diferencial": [
+      { "if": "Rompimento da gengiva no momento da saída do dente", "then": "Arnica montana" },
+      { "if": "Dores após a extração do dente do siso", "then": "Cheirantus cheiri" },
+      { "if": "Dores irradiadas aos ouvidos e têmporas AND salivação abundante AND dente sensível ao toque", "then": "Plantago major" },
+      { "if": "Dentes sensíveis ao ar frio", "then": "Calcarea carbonica" },
+      { "if": "Sensação de calor nos dentes", "then": "Fluoricum acidum" },
+      { "if": "Odontalgia que melhora pela marcha AND agravamento durante a gestação AND pós-intervenção", "then": "Magnesia carbonica" },
+      { "if": "Com gengivite e inflamação óssea", "then": "Silicea" }
+    ]
+  },
+  {
+    "enfermidade": "Dentição da Infância",
+    "entrada_primaria": "Aparecimento dos dentes de leite (5 a 30 meses) ou definitivos. Pode causar febre e transtornos digestivos.",
+    "seguranca": "A seleção é mais confiável se baseada em sintomas inesperados, como a conservação do apetite na febre.",
+    "diagnostico_diferencial": [
+      { "if": "Saída dolorosa com febre elevada AND bochechas vermelhas e quentes AND ranger de dentes AND gengivas vermelhas", "then": "Belladonna" },
+      { "if": "Criança irritável AND bochecha vermelha apenas do lado que o dente está saindo AND melhora apenas no colo AND associação com diarreia ou convulsões", "then": "Chamomilla vulgaris" },
+      { "if": "Dores com necessidade de apertar as gengivas uma contra a outra AND irritabilidade", "then": "Phytolacca decandra" }
+    ]
+  },
+  {
+    "enfermidade": "Depressão Nervosa",
+    "entrada_primaria": "Enfraquecimento do tônus neuropsíquico. Sintomas: tristeza, autodepreciação, perda do élan vital, insônia, fadiga e diminuição da libido.",
+    "seguranca": "Doença psiquiátrica mais frequente (10-20% de prevalência). No caso de Aurum metallicum, há risco real de suicídio; deve-se prevenir a família e considerar baixas dinamizações (4 CH) para evitar gestos irreversíveis.",
+    "diagnostico_diferencial": [
+      { "if": "Pessimismo (nada pode curá-lo) AND ansiedade e agitação apesar da depressão AND meticulosidade extrema AND medo de ladrões AND agrava ao crepúsculo", "then": "Arsenicum album" },
+      { "if": "Síndrome melancólica com forte sentimento de culpa e auto-acusação AND ideias de suicídio sinceras (morte fascinante) AND face vermelha com tendências cardíacas AND melhora pela música", "then": "Aurum metallicum" },
+      { "if": "Humor cambiante AND tendência a procurar briga ou criticar como defesa AND soluços e suspiros involuntários AND sensação de bolo na garganta AND agrava pelo consolo e pelo café", "then": "Ignatia amara" },
+      { "if": "Fadiga cerebral com incapacidade de refletir AND sai do estado bruscamente para mostrar irritabilidade AND cefaleia pelo esforço intelectual", "then": "Kalium phosphoricum" },
+      { "if": "Depressão por excesso de responsabilidade ou ofensas AND não gosta de solidão mas quer companhia silenciosa AND chora ao ser felicitado AND sonolência com estômago cheio", "then": "Lycopodium clavatum" },
+      { "if": "Tristeza escondida dos familiares AND chora apenas quando sozinho AND ruminação de mágoas antigas AND magreza apesar de comer bem AND medo de ladrões AND agrava pelo consolo e à beira-mar", "then": "Natrum muriaticum" },
+      { "if": "Esgotamento cerebral (pilha vazia) AND apatia e indiferença total AND não compreende ou não responde perguntas AND cabelos prematuramente grisalhos AND melhora por sono curto", "then": "Phosphoricum acidum" },
+      { "if": "Chora pelo menor motivo e enrubesce ao descrever sintomas AND necessidade patológica de ser amado AND comportamento pueril AND melhora por consolação e ao ar livre", "then": "Pulsatilla" },
+      { "if": "Astenia matinal (melhora 2h após levantar) AND rosto pálido com olheiras AND aversão à família/cônjuge AND ausência de desejo sexual AND melhora pelo exercício, dança e ocupação", "then": "Sepia officinalis" },
+      { "if": "Síndrome do insucesso em paciente inteligente AND falta de energia física e moral AND precisa de encorajamento para agir", "then": "Silicea" },
+      { "if": "Repentina com sensação de corpo moído após traumatismo físico ou psíquico", "then": "Arnica montana" },
+      { "if": "Em paciente paralítico com compaixão patológica AND apreensão de que algo aconteça", "then": "Causticum" },
+      { "if": "Provocada pela supressão das regras AND lentidão e dificuldade para pensar AND aversão à luminosidade", "then": "Conium maculatum" },
+      { "if": "Mulher hiperativa, irritável e precipitada AND dividida entre ideias sexuais e religiosas AND chora agrava por consolo", "then": "Lilium tigrinum" },
+      { "if": "Melhora quando a paciente tem leucorreias", "then": "Murex purpurea" },
+      { "if": "Em cardíaco com medo da morte AND tendência suicida AND cefaleia", "then": "Naja tripudians" },
+      { "if": "Pelo calor do verão AND aversão por estranhos AND hipersensibilidade à música", "then": "Natrum carbonicum" },
+      { "if": "Após traumatismo craniano AND ideias de suicídio (precisa se controlar para não se enforcar) AND música animada o entristece", "then": "Natrum sulfuricum" },
+      { "if": "Ansiosa com crise de pânico e necessidade de companhia AND olhos ardentes de angústia AND agrava ao crepúsculo", "then": "Phosphorus" },
+      { "if": "Orgulho e arrogância mascarando a depressão AND manifesta-se quando a imagem de superioridade é questionada", "then": "Platina" },
+      { "if": "Após cólera ou indignação reprimidas AND tom de voz tranquilo mas muita preocupação AND tendência a bater portas ou jogar objetos", "then": "Staphysagria" }
+    ]
+  },
+  {
+    "enfermidade": "Dermite das 'Cercas Vivas'",
+    "entrada_primaria": "Dermatose de contato ou alérgica. Apresenta-se como erupção rosada, elevada, pruriginosa ou com aspecto bolhoso.",
+    "seguranca": "A associação de medicamentos na receita-tipo visa 'cobrir o caso' em situações de hesitação diagnóstica entre características clínicas diferentes.",
+    "diagnostico_diferencial": [
+      { "if": "Erupção rosada, elevada e pruriginosa AND dores picantes e queimantes AND melhora por aplicações frias", "then": "Apis mellifica" },
+      { "if": "Erupção com aspecto bolhoso", "then": "Cantharis" },
+      { "if": "Aspecto de vesículas circundadas por aréola vermelha AND prurido que melhora por aplicações quentes", "then": "Rhus toxicodendron" },
+      { "if": "Ocorrência em condições de umidade", "then": "Natrum sulfuricum" },
+      { "if": "Prurido cutâneo agravado ao ar frio (ao se despir)", "then": "Rumex crispus" },
+      { "if": "Casos persistentes ou para encerrar o tratamento (dose única em 12 CH)", "then": "Sulfur" }
+    ]
+  },
+  {
+    "enfermidade": "Dermite das Nádegas (Eritema das Nádegas)",
+    "entrada_primaria": "Aspecto eritematoso das nádegas do recém-nascido (7 a 12 meses). Pode ser irritativa (fraldas), candidíase ou seborreica.",
+    "seguranca": "NÃO dar Hepar sulfuris calcareum se a criança for susceptível a otite (risco de efeito centrífugo empurrar a infecção para o ouvido).",
+    "diagnostico_diferencial": [
+      { "if": "Diarreia durante a dentição AND bochechas vermelhas (lado da erupção) AND irritabilidade (melhora apenas no colo)", "then": "Chamomilla vulgaris" },
+      { "if": "Eritema que se estende em 'mancha de óleo' AND ausência de otite", "then": "Hepar sulfuris calcareum" },
+      { "if": "Recém-nascido com pele vermelha viva", "then": "Medorrhinum" }
+    ]
+  },
+  {
+    "enfermidade": "Dermite Seborreica",
+    "entrada_primaria": "Dermatose inflamatória com escamas gordurosas. No recém-nascido, manifesta-se como crostas de leite.",
+    "seguranca": "O Sulfur deve ser prescrito em doses espaçadas (15 ou 30 dias) para evitar agravamentos intempestivos.",
+    "diagnostico_diferencial": [
+      { "if": "Pele do rosto gordurosa AND erupção no limite do couro cabeludo AND paciente reservado AND tendência ao herpes", "then": "Natrum muriaticum" },
+      { "if": "Erupção vermelha e escamosa no limite do couro cabeludo AND sensação de ardência AND agravamento pela água", "then": "Sulfur" },
+      { "if": "Papel patogênico da levedura confirmado (prescrição do isoterápico)", "then": "Malassezia furfur" },
+      { "if": "Pele do rosto gordurosa com presença de cravos", "then": "Selenium metallicum" }
+    ]
+  },
+  {
+    "enfermidade": "Descolamento da Retina",
+    "entrada_primaria": "Clivagem entre as camadas de fotorreceptores e o epitélio pigmentado. Sinais: fosfenos (flashes) e véu negro na visão.",
+    "seguranca": "Trata-se de uma URGÊNCIA CIRÚRGICA. A homeopatia atua como suporte, especialmente em casos traumáticos ou pós-operatórios.",
+    "diagnostico_diferencial": [
+      { "if": "Origem traumática com hemorragia retiniana", "then": "Arnica montana" },
+      { "if": "Hemiopia horizontal (vê apenas a metade inferior dos objetos) AND associação com coriorretinite", "then": "Aurum metallicum" },
+      { "if": "Consecutivo a miopia ou traumatismo AND diplopia (visão dupla)", "then": "Gelsemium sempervirens" },
+      { "if": "Presença de depósitos sobre a retina AND opacidades corneanas", "then": "Naphtalinum" },
+      { "if": "Melhora da visão ao colocar a mão em viseira AND Phosphorus desempenha papel na recepção da luz", "then": "Phosphorus" },
+      { "if": "Com presença de edema da retina", "then": "Apis mellifica" },
+      { "if": "Com anemia da retina AND objetos parecem amarelos ou verdes", "then": "Digitalis purpurea" }
+    ]
+  },
+  {
+    "enfermidade": "Diabetes",
+    "entrada_primaria": "Excesso de açúcar no sangue (jejum >= 1,26 g/L). Sinais: sede, poliúria e fadiga.",
+    "seguranca": "O tratamento homeopático não substitui a alopatia/insulina; visa o conforto e retardo das complicações (angiopatia, retinopatia).",
+    "diagnostico_diferencial": [
+      { "if": "Diabetes tipo 2 com descompensação brutal AND emagrecimento AND palidez cerosa AND urina aquosa", "then": "Aceticum acidum" },
+      { "if": "Associado a dores reumáticas AND apetite voraz AND pele seca que não transpira", "then": "Lacticum acidum" },
+      { "if": "Tratamento adjuvante no Diabetes Tipo 1 (doença autoimune) AND catarata diabética", "then": "Natrum muriaticum" },
+      { "if": "Paciente pletórico e jovial AND prevenção de complicações infecciosas (furúnculos)", "then": "Sulfur" },
+      { "if": "Presença de ulcerações de origem diabética", "then": "Syzygium jambolanum" },
+      { "if": "Polifagia, polidipsia e glicosúria AND diabetes renal", "then": "Uranium nitricum" },
+      { "if": "Urina abundante à noite AND edema dos tornozelos", "then": "Argentum metallicum" },
+      { "if": "Boca tão seca que impede umedecer os alimentos", "then": "Arsenicum album" },
+      { "if": "Presença de pigmentos biliares na urina", "then": "Chionanthus virginica" },
+      { "if": "Lábios secos e colantes AND urina clara AND emaciação", "then": "Helonias dioica" },
+      { "if": "Emagrecimento importante embora coma bem", "then": "Iodum" },
+      { "if": "Astenia importante AND cefaleia com micção abundante", "then": "Lac defloratum" },
+      { "if": "Associado a dores nos rins", "then": "Lycopodium clavatum" },
+      { "if": "Associação de asma e diabetes", "then": "Natrum sulfuricum" },
+      { "if": "Fadiga ligada ao diabetes AND fosfatúria", "then": "Phosphoricum acidum" },
+      { "if": "Lesão do pâncreas AND complicações microvasculares", "then": "Phosphorus" },
+      { "if": "Complicações renais AND hipertensão arterial com albuminúria", "then": "Plumbum metallicum" }
+    ]
+  },
+  {
+    "enfermidade": "Diarreia",
+    "entrada_primaria": "Evacuação frequente de fezes líquidas. Diagnóstico etiológico é fundamental para evitar desidratação e acidose.",
+    "seguranca": "Em casos de toxiinfecção alimentar grave, o Arsenicum album é considerado quase específico.",
+    "diagnostico_diferencial": [
+      { "if": "Instalação brutal após golpe de frio AND abdômen quente AND fezes verdes AND agitação ansiosa", "then": "Aconitum napellus" },
+      { "if": "Insegurança do esfíncter (fezes escapam) AND gases quentes AND agrava logo após comer/beber", "then": "Aloe socotrina" },
+      { "if": "Após excesso alimentar ou banho frio AND língua branca espessa (película de leite)", "then": "Antimonium crudum" },
+      { "if": "Diarreia de antecipação (ansiedade) AND fezes verdes AND desejo de doces", "then": "Argentum nitricum" },
+      { "if": "Odor fétido/pútrido AND queimação anal AND sede de pequenos goles frequentes AND prostração", "then": "Arsenicum album" },
+      { "if": "Colapso cardiovascular AND fezes coleriformes AND corpo frio mas recusa cobertas", "then": "Camphora" },
+      { "if": "Associada a disúria AND fezes com sangue e aspecto de 'raspados de intestino'", "then": "Cantharis" },
+      { "if": "Durante dentição AND fezes verdes e quentes AND criança irritável melhora no colo", "then": "Chamomilla vulgaris" },
+      { "if": "Discinesia biliar AND fezes amarelas que flutuam", "then": "Chelidonium majus" },
+      { "if": "Sem dor AND abaulamento abdominal que NÃO melhora por gases AND pós-perda de líquidos", "then": "China rubra" },
+      { "if": "Diarreia de antecipação AND paciente embotado que deseja ser deixado em paz", "then": "Gelsemium sempervirens" },
+      { "if": "Sintomas do Mercurius solubilis porém mais violentos AND dores cortantes no reto", "then": "Mercurius corrosivus" },
+      { "if": "Tenesmo que não melhora após evacuar AND fezes com muco tipo clara de ovo/pus/sangue AND língua com marcas de dentes", "then": "Mercurius solubilis" },
+      { "if": "Crônica AND agrava após o desjejum AND fezes que respingam AND alegria após defecar", "then": "Natrum sulfuricum" },
+      { "if": "Após álcool ou laxantes AND alternância com constipação AND sensação de que o intestino nunca esvazia", "then": "Nux vomica" },
+      { "if": "Caso grave AND ânus escancarado AND fezes involuntárias fétidas AND vazio abdominal pós-evacuação", "then": "Phosphorus" },
+      { "if": "Profusa/coleriforme AND suores frios na testa AND sensação de frio interno", "then": "Veratrum album" },
+      { "if": "Recém-nascido atrépsico (envelhecido) AND emaciação nas pernas AND apetite conservado", "then": "Abrotanum" },
+      { "if": "Intolerância ao leite (vomita grumos assim que ingere) AND emaciação rápida", "then": "Aethusa cynapium" },
+      { "if": "Cãibras abdominais que melhoram dobrando o corpo e pelo calor AND irritabilidade", "then": "Colocynthis" },
+      { "if": "Aquosa em jatos repentinos AND alterna com eczema", "then": "Croton tiglium" },
+      { "if": "No tempo úmido e frio ou após pisar em chão úmido", "then": "Dulcamara" },
+      { "if": "Expulsa com força de uma só vez (idosos) AND ruídos no ventre antes da evacuação", "then": "Gambogia" },
+      { "if": "Fezes verdes como espuma de charco AND odor ácido em todo o corpo", "then": "Magnesia carbonica" },
+      { "if": "Pós-consumo de ostras duvidosas AND estremecimentos no reto antes da evacuação", "then": "Lycopodium clavatum" },
+      { "if": "Pelas gorduras AND fezes de aspecto variável", "then": "Pulsatilla" },
+      { "if": "Durante a dentição AND fezes ácidas AND todo o corpo da criança cheira acre", "then": "Rheum officinale" },
+      { "if": "Matinal com tosse por cócegas na garganta", "then": "Rumex crispus" },
+      { "if": "Sensação de algo vivo no ventre AND após vacinação", "then": "Thuya occidentalis" }
+    ]
+  },
+  {
+    "enfermidade": "Disfunção Erétil",
+    "entrada_primaria": "Ereção impossível, incompleta ou que não se mantém.",
+    "seguranca": "A homeopatia é um procedimento entre outros; a psicoterapia e a comunicação do casal são fundamentais.",
+    "diagnostico_diferencial": [
+      { "if": "Pênis relaxa-se por emoção AND torna-se frio ou sensação de frio", "then": "Agnus castus" },
+      { "if": "Pênis relaxa-se durante o coito AND ejaculação precoce por ansiedade de antecipação", "then": "Argentum nitricum" },
+      { "if": "Pênis relaxa-se por emoção AND prazer sexual ausente mas desejo conservado", "then": "Caladium seguinum" },
+      { "if": "Ereção não se mantém AND pênis relaxa-se por emoção AND paciente adormece durante o coito", "then": "Lycopodium clavatum" },
+      { "if": "Em paciente prostático AND ausência de ereção mas desejo conservado", "then": "Selenium metallicum" },
+      { "if": "Impotência por ruminação sexual AND após vexação ou indignação reprimida", "then": "Staphysagria" },
+      { "if": "Com perdas seminais involuntárias AND lombalgia", "then": "Cobaltum metallicum" },
+      { "if": "Em paciente habitualmente abstinente", "then": "Conium maculatum" },
+      { "if": "Desejo ausente ou aversão ao coito AND ereção não se mantém", "then": "Graphites" },
+      { "if": "Ausência de desejo sexual AND cefaleia de tensão", "then": "Onosmodium virginianum" },
+      { "if": "Após excitação sexual excessiva", "then": "Phosphorus" },
+      { "if": "Paciente teme as relações com o sexo oposto", "then": "Pulsatilla" },
+      { "if": "Perda do poder de amar AND sentimento de inferioridade", "then": "Sepia officinalis" }
+    ]
+  },
+  {
+    "enfermidade": "Dismenorreia",
+    "entrada_primaria": "Dores tipo câimbra antes ou durante as regras por contrações e isquemia uterina.",
+    "seguranca": "A presença de sintomas concomitantes (como dorsalgias ou irritabilidade) é fundamental para a seleção do medicamento.",
+    "diagnostico_diferencial": [
+      { "if": "Dores proporcionais à abundância do fluxo AND melhora dobrada em dois AND concomitância de dorsalgias (D1-D3)", "then": "Actæa racemosa" },
+      { "if": "Dores intermitentes que lembram o parto AND irradiadas para peito/estômago/membros", "then": "Caulophyllum thalictroides" },
+      { "if": "Dores insuportáveis AND sangue negro com coágulos AND irritabilidade e cólera", "then": "Chamomilla vulgaris" },
+      { "if": "Dores que obrigam a se dobrar e comprimir o abdômen AND melhora pelo calor AND irritabilidade", "then": "Colocynthis" },
+      { "if": "Modalidades de Colocynthis (dobrar/calor) SEM irritabilidade mental", "then": "Magnesia phosphorica" },
+      { "if": "Dores tipo câimbra AND irritabilidade AND falsas vontades de defecar AND língua saburrosa posterior", "then": "Nux vomica" },
+      { "if": "Dores tipo peso AND sangue parece quente AND congestão cefálica", "then": "Belladonna" },
+      { "if": "Com sensação de constrição no coração", "then": "Cactus grandiflorus" },
+      { "if": "Dores tipo corte 'como pedras pontudas na barriga' AND agrava pelo movimento AND meteorismo", "then": "Cocculus indicus" },
+      { "if": "Com hemorróidas agravadas durante a menstruação", "then": "Collinsonia canadensis" },
+      { "if": "Congestão do útero percebida conscientemente AND menorragias", "then": "Helonias dioica" },
+      { "if": "Regras escoam apenas 1h por dia AND dor instala-se quando param", "then": "Lachesis mutus" },
+      { "if": "Regras só escoam ao se mexer e param deitada AND associação com retroversão uterina", "then": "Lilium tigrinum" },
+      { "if": "Sensação de peso AND hipersensibilidade vaginal AND paciente orgulhosa/altiva", "then": "Platina" },
+      { "if": "Após ficar com os pés molhados AND regras escoam apenas de dia", "then": "Pulsatilla" },
+      { "if": "Dores do sacro ao púbis (anteroposterior) AND sangue vermelho vivo com coágulos AND agrava pelo movimento", "then": "Sabina" },
+      { "if": "Sensação de peso 'órgãos vão sair' AND melhora cruzando as pernas AND pálida com olheiras", "then": "Sepia officinalis" },
+      { "if": "Dismenorreia violenta nevrálgica AND dores no ovário esquerdo irradiadas ao nervo crural", "then": "Xanthoxylum fraxineum" }
+    ]
+  },
+  {
+    "enfermidade": "Eczema",
+    "entrada_primaria": "Reação inflamatória da pele cuja lesão histológica elementar é a espongiose, evoluindo para vesiculação, prurido, eritema, edema, exsudação, crostas e descamação.",
+    "seguranca": "É clássico constatar alternância entre asma e eczema (mesmo plano alérgico). O tratamento de fundo deve levar em conta ambas, mesmo que uma esteja latente. Sulfur deve ser usado com cautela para não agravar o quadro (doses espaçadas).",
+    "diagnostico_diferencial": [
+      { "if": "Eczema hiperqueratósico AND associação com problemas gástricos", "then": "Antimonium crudum" },
+      { "if": "Edema rosado com aspecto de casca de laranja AND prurido que melhora com o frio AND alergia solar", "then": "Apis mellifica" },
+      { "if": "Crônico com edema branco AND pele espessa e pergaminhada AND descamação furfurácea AND prurido agrava ao coçar AND alterna com asma", "then": "Arsenicum album" },
+      { "if": "Aspecto liquenificado com grandes escamas brancas", "then": "Arsenicum iodatum" },
+      { "if": "Aspecto circinado (cura pelo centro deixando pigmentação) AND prurido agrava ao coçar AND localização anal ou nas mãos", "then": "Berberis vulgaris" },
+      { "if": "Grandes vesículas ou bolhas (flictenas) AND queimação intensa AND alergia solar", "then": "Cantharis" },
+      { "if": "Superinfectado, exsudante e viscoso (amarelo como mel) AND fissuras melosas AND localizado em comissuras, dobras e atrás das orelhas", "then": "Graphites" },
+      { "if": "Pequenas vesículas que formam crostas esbranquiçadas AND prurido violento agravado à noite AND pós-vacinação", "then": "Mezereum" },
+      { "if": "Localizado na borda do couro cabeludo, dobras de flexão ou ânus AND pele gordurosa AND agrava à beira-mar", "then": "Natrum muriaticum" },
+      { "if": "Grandes escamas translúcidas e amareladas AND prurido ao se despir", "then": "Natrum sulfuricum" },
+      { "if": "Fissuras com fundo sangrante AND dores picantes (como farpa) AND pele em torno amarela AND localizado em comissuras", "then": "Nitricum acidum" },
+      { "if": "Vesículas com líquido citrino AND infiltrado vermelho AND prurido melhora por aplicações quentes e agrava ao coçar", "then": "Rhus toxicodendron" },
+      { "if": "Vesículas minúsculas (disidrose) AND prurido intenso que melhora pelo calor", "then": "Rhus venenata" },
+      { "if": "Erupções redondas de aspecto circinado AND ondas de calor emotivas AND localizado em torno da boca, axila ou dobras de flexão", "then": "Sepia officinalis" },
+      { "if": "Vesículas em grupos nas palmas das mãos AND prurido importante", "then": "Anagallis arvensis" },
+      { "if": "Localizado no couro cabeludo (crostas de leite no recém-nascido)", "then": "Calcarea carbonica" },
+      { "if": "Escamas amarelo citrino AND retrocesso pode levar a convulsões", "then": "Cicuta virosa" },
+      { "if": "Pequenas vesículas muito pruriginosas AND dores ao coçar AND localização preferencial nos órgãos genitais", "then": "Croton tiglium" },
+      { "if": "Vesiculoso com dores queimantes após coçar AND agrava com umidade", "then": "Dulcamara" },
+      { "if": "Superinfectado com adenopatias importantes", "then": "Mercurius solubilis" },
+      { "if": "Alergia solar sob forma de pequenos botões vermelhos", "then": "Muriaticum acidum" },
+      { "if": "Fissuras pruriginosas com fundo sangrante AND pele em torno com aspecto sujo AND localizado nos dedos ou ânus AND agrava no inverno", "then": "Petroleum" },
+      { "if": "Fissurado, pruriginoso e sangrante no dorso das mãos", "then": "Pix liquida" },
+      { "if": "Alterna com asma AND fome e euforia antes da crise AND desespero de curar", "then": "Psorinum" },
+      { "if": "Pós-vacinação", "then": "Silicea" },
+      { "if": "Exsudativo com prurido que muda de lugar à medida que se coça", "then": "Staphysagria" },
+      { "if": "Pele vermelha e quente AND queimação AND agrava pela água AND melhora por aplicações frias AND localizado na borda do couro cabeludo", "then": "Sulfur" },
+      { "if": "Pós-vacinação OR consequência de gonorréia", "then": "Thuya occidentalis" }
+    ]
+  },
+  {
+    "enfermidade": "Edema de Quincke",
+    "entrada_primaria": "Edema angioneurótico localizado; infiltração edematosa da pele e mucosas da face, de instalação rápida.",
+    "seguranca": "URGÊNCIA: O perigo reside na localização na laringe, que pode causar risco de vida (asfixia).",
+    "diagnostico_diferencial": [
+      { "if": "Surgimento rápido AND pálpebras e lábios inchados AND prurido e queimação AND sensação de que cada respiração é a última", "then": "Apis mellifica" },
+      { "if": "Face vermelha AND lábios muito inchados AND indicado em segunda intenção se Apis falhar", "then": "Sulfur" },
+      { "if": "Inchaço da face e lábios AND alivia o prurido específico do edema", "then": "Dolichos pruriens" },
+      { "if": "Paciente com tendência a herpes e alergia solar", "then": "Natrum muriaticum" },
+      { "if": "Preferir este se houver receio de agravamento por Natrum muriaticum", "then": "Natrum sulfuricum" }
+    ]
+  },
+  {
+    "enfermidade": "Ejaculação Precoce",
+    "entrada_primaria": "Emissão de esperma que sobrevem antes ou logo após a penetração vaginal.",
+    "seguranca": "A subjetividade do paciente torna o tratamento aleatório. Frequentemente requer abordagem psicoterápica ou de casal associada.",
+    "diagnostico_diferencial": [
+      { "if": "Ereção incompleta e curta apesar de desejo importante AND ausência de prazer AND aversão ao coito", "then": "Graphites" },
+      { "if": "Ereção não se mantém AND encolhimento/atrofia do pênis AND adormece durante o coito", "then": "Lycopodium clavatum" },
+      { "if": "Perdas seminais sem ereção (ou retarda a vir) gota a gota AND ligado a hipertrofia da próstata", "then": "Selenium metallicum" },
+      { "if": "Ligada a problemas neurológicos AND desejo sexual facilmente aguçado", "then": "Zincum metallicum" }
+    ]
+  },
+  {
+    "enfermidade": "Encefalite Viral",
+    "entrada_primaria": "Doença inflamatória aguda do cérebro, primária ou secundária (após sarampo, rubéola, varicela).",
+    "seguranca": "QUADRO GRAVE: Febre, alteração de consciência e convulsões. Sinais patognomônicos como o 'grito encefálico' indicam gravidade extrema.",
+    "diagnostico_diferencial": [
+      { "if": "Primeira fase com edema cerebral AND afunda a cabeça no travesseiro AND gritos encefálicos prolongados AND deixa cair objetos AND estrabismo AND febre SEM sede", "then": "Apis mellifica" },
+      { "if": "Febre > 40°C AND rosto vermelho e quente AND lábios inchados AND delírio com alucinações de animais AND midríase e olhar fixo AND convulsões que agravam por abalos no leito", "then": "Belladonna" },
+      { "if": "Fase avançada AND estupor e indiferença AND lento para responder AND testa franzida AND maxilar inferior caído AND língua oscilante AND movimentos automáticos dos membros", "then": "Helleborus niger" },
+      { "if": "Sonolência AND rosto vermelho escuro AND pálpebras caídas (ptose) AND diplopia/estrabismo AND tremores AND esfíncteres relaxados AND febre SEM sede", "then": "Gelsemium sempervirens" },
+      { "if": "Depressão sensorial AND balança os pés continuamente AND relaxamento dos esfíncteres AND estrabismo AND ocorre em febre eruptiva que não 'sai'", "then": "Zincum metallicum" }
+    ]
+  },
+  {
+    "enfermidade": "Endometriose",
+    "entrada_primaria": "Presença de endométrio funcionalmente ativo fora da cavidade uterina (trompas, ovários, peritônio, etc.).",
+    "seguranca": "A homeopatia não trata a lesão histológica, mas sim as dores e sintomas reacionais causados por ela. A celioscopia é essencial para o diagnóstico.",
+    "diagnostico_diferencial": [
+      { "if": "Dores proporcionais à abundância do fluxo AND alternância com transtornos mentais (loquacidade, medo de ficar louca)", "then": "Actæa racemosa" },
+      { "if": "Dores tipo câimbra que dobram a paciente e obrigam a pressionar o abdômen AND irritabilidade pela dor AND melhora por calor local", "then": "Colocynthis" },
+      { "if": "Dores que dobram a paciente AND melhora pelo calor AND SEM irritabilidade mental", "then": "Magnesia phosphorica" },
+      { "if": "Dores tipo câimbra AND falsas vontades de evacuar AND necessidade de se dobrar AND irritabilidade", "then": "Nux vomica" },
+      { "if": "Astenia com palidez e olheiras AND peso para baixo AND síndrome pré-menstrual AND ausência de desejo sexual", "then": "Sepia officinalis" }
+    ]
+  },
+  {
+    "enfermidade": "Enfisema Pulmonar",
+    "entrada_primaria": "Dilatação dos espaços aéreos com destruição das paredes alveolares. Geralmente complica bronquite crônica ou pneumoconiose.",
+    "seguranca": "Trata-se de lesão orgânica; a homeopatia atua na melhora da mecânica respiratória e sintomas associados.",
+    "diagnostico_diferencial": [
+      { "if": "Dispneia com rosto pálido e lábios cianóticos AND nariz entupido à noite AND sonolência contínua", "then": "Ammonium carbonicum" },
+      { "if": "Cianose importante AND cabeça quente com corpo frio AND necessidade de ser abanado (fome de ar) AND melhora por eructações", "then": "Carbo vegetabilis" },
+      { "if": "Dispneia de esforço violenta com espasmos do diafragma AND sensação de que o coração vai parar AND náuseas importantes", "then": "Lobelia inflata" },
+      { "if": "Dispneia muito importante agravada em posição deitada", "then": "Antimonium arsenicosum" },
+      { "if": "Asma associada AND suores frios AND grande ansiedade", "then": "Arsenicum album" },
+      { "if": "Sufocação ao adormecer AND bochechas violáceas AND agrava ao tocar o pescoço/peito AND melhora ao sentar ou abrir janelas", "then": "Lachesis mutus" },
+      { "if": "Catarro do idoso AND estertores AND impossibilidade de expectorar AND dores na parede torácica", "then": "Senega" },
+      { "if": "Supuração devida à bronquite crônica OR pneumoconiose ('enfisema dos cortadores de pedra')", "then": "Silicea" }
+    ]
+  },
+  {
+    "enfermidade": "Entorse",
+    "entrada_primaria": "Ruptura ligamentar parcial ou completa resultante de trauma.",
+    "seguranca": "Sinais de gravidade (impotência funcional, estalido, hiato na radiografia) podem exigir imobilização ou cirurgia.",
+    "diagnostico_diferencial": [
+      { "if": "Sensação local de ter levado uma pancada AND presença de hematomas", "then": "Arnica montana" },
+      { "if": "Sequelas inflamatórias AND agrava pelo repouso e umidade AND melhora pelo movimento e calor", "then": "Rhus toxicodendron" },
+      { "if": "Lesão do periósteo ou tendões AND sensação de fraqueza/paresia AND localizado no punho ou tornozelo", "then": "Ruta graveolens" },
+      { "if": "Inchaço local AND articulação fria ao toque", "then": "Ledum palustre" },
+      { "if": "Entorses de repetição AND paciente torce o tornozelo facilmente", "then": "Natrum carbonicum" }
+    ]
+  },
+  {
+    "enfermidade": "Enurese",
+    "entrada_primaria": "Micção noturna, completa e involuntária, em criança com mais de 5 anos.",
+    "seguranca": "É sobretudo o medicamento de fundo que tem chances de ser ativo; excluir causas orgânicas/urológicas primeiro.",
+    "diagnostico_diferencial": [
+      { "if": "Transpiração abundante AND sono muito profundo (difícil acordar) AND sobressaltos AND sonha que urina", "then": "Belladonna" },
+      { "if": "Durante o primeiro sono AND paresia esfincteriana neurológica AND também perde urina de dia ao tossir/rir/espirrar", "then": "Causticum" },
+      { "if": "Ausência de sintoma preciso (prescrição sistemática)", "then": "Equisetum hiemale" },
+      { "if": "Durante o primeiro sono AND sonha que urina AND rosto pálido com olheiras AND fatigabilidade", "then": "Sepia officinalis" },
+      { "if": "Transpiração na cabeça durante o sono AND criança gorda que sente frio facilmente", "then": "Calcarea carbonica" },
+      { "if": "Associada a verminose AND criança inteligente mas fisicamente pouco desenvolvida", "then": "Silicea" },
+      { "if": "Associada a terrores noturnos AND medo do escuro", "then": "Stramonium" }
+    ]
+  },
+  {
+    "enfermidade": "Epicondilite",
+    "entrada_primaria": "Irritação perióstea de origem mecânica no epicôndilo do úmero. Traduz-se por dor irradiada ao bordo externo do braço e antebraço, desencadeada por movimentos repetitivos de preensão ou extensão (cotovelo de tenista).",
+    "seguranca": "A escolha entre a receita-tipo e o essencial depende de sintomas precisos; recomenda-se consulta à matéria médica.",
+    "diagnostico_diferencial": [
+      { "if": "Lesão ligamentar AND dores agravadas no repouso e à pressão AND melhora pelo movimento e calor AND rigidez no início do movimento AND conseqüência de ter forçado brutalmente o antebraço", "then": "Rhus toxicodendron" },
+      { "if": "Lesão do periósteo AND contraturas tendinosas AND dores como se tivesse levado um golpe AND fraqueza do membro AND conseqüência de esforços repetidos no cotovelo", "then": "Ruta graveolens" },
+      { "if": "Dores no cotovelo acompanhadas de sensação de inchação AND melhora pelo movimento", "then": "Agaricus muscarius" },
+      { "if": "Inflamação pós-traumática do periósteo AND dores do tipo formigamento", "then": "Symphytum officinale" }
+    ]
+  },
+  {
+    "enfermidade": "Epididimite",
+    "entrada_primaria": "Inflamação do epidídimo. Apresenta-se com dores inguinais e/ou escrotais com endurecimento local.",
+    "seguranca": "Pode estar associada a orquite, cistite ou uretrite.",
+    "diagnostico_diferencial": [
+      { "if": "Caso crônico (historicamente de origem sifilítica)", "then": "Aurum metallicum" },
+      { "if": "Pós-gonorréia AND dores no testículo correspondente à noite no calor da cama", "then": "Clematis erecta" },
+      { "if": "Bioterápico complementar para tratamento de fundo AND antecedentes de gonorréia", "then": "Medorrhinum" },
+      { "if": "Dores e febre agravadas à noite", "then": "Mercurius solubilis" }
+    ]
+  },
+  {
+    "enfermidade": "Epilepsia",
+    "entrada_primaria": "Crises repentinas de convulsões (tônico-clônicas ou ausências) com modificações eletroencefalográficas (complexo ponta-onda).",
+    "seguranca": "Trata-se de natureza orgânica; não se deve em nenhum caso contentar-se apenas com o tratamento homeopático; associar obrigatoriamente ao tratamento clássico.",
+    "diagnostico_diferencial": [
+      { "if": "Pequeno mal AND crise generalizada AND face vermelha AND olhos virados para baixo AND midríase AND polegar dobrado para dentro da mão", "then": "Æthusa cynapium" },
+      { "if": "Crises generalizadas subintrantes (Grande Mal) sem aura AND precedidas de excitação nervosa AND transpiração com odor de alho ou mau cheiro AND conseqüências de medo ou susto", "then": "Artemisia vulgaris" },
+      { "if": "Convulsões violentas começando pela cabeça (projetada para trás) AND aura no plexo solar (abaulamento do estômago) AND extremidades frias AND agrava pelo barulho e toque AND conseqüência de traumatismo craniano", "then": "Cicuta virosa" },
+      { "if": "Epilepsia Bravais-Jacksoniana (começa em um membro superior) AND polegar dobrado para dentro AND face cianótica AND olhos revirados para cima AND trismo AND espuma na boca AND opistótono AND após retrocesso de erupção", "then": "Cuprum metallicum" },
+      { "if": "Crise de Grande Mal AND espasmos faciais AND hipersialorréia AND pele fria AND defecação involuntária AND respiração estertorosa AND estado pseudocomatoso pós-crise AND agrava durante as regras AND após traumatismo craniano", "then": "Enanthe crocata" },
+      { "if": "Tremores antes da crise AND paciente alcoolodependente", "then": "Absinthium" },
+      { "if": "Crise com força muscular extraordinária AND cianose AND sensação de embriaguez AND após medo ou retrocesso de erupção", "then": "Agaricus muscarius" },
+      { "if": "Ansiedade de antecipação (faz crise antes de reuniões) AND aura com sensação de expansão do corpo AND midríase horas ou dias antes da crise AND agrava durante as regras AND após medo", "then": "Argentum nitricum" },
+      { "if": "Fome voraz antes da crise (desejo de doces) AND aura com sensação de camundongo correndo pelo corpo", "then": "Calcarea carbonica" },
+      { "if": "Aura constituída por sensação de camundongo que corre ao longo do corpo AND após retrocesso de erupção", "then": "Sulfur" }
+    ]
+  },
+  {
+    "enfermidade": "Equimoses",
+    "entrada_primaria": "Infiltração do tecido celular subcutâneo por sangue, resultando em manchas violáceas, negras ou amareladas.",
+    "seguranca": "Arnica montana tomada imediatamente após o traumatismo previne a formação de equimoses.",
+    "diagnostico_diferencial": [
+      { "if": "Origem traumática AND sensação de que a cama está dura AND prescrição sistemática", "then": "Arnica montana" },
+      { "if": "Congestão venosa AND traumatismo venoso AND equimoses ligadas a varizes", "then": "Hamamelis virginiana" },
+      { "if": "Cor violácea AND ocorre espontaneamente no curso da menopausa ou doença infecciosa grave AND sangue escuro e decomposto", "then": "Lachesis mutus" },
+      { "if": "Traumáticas em torno dos olhos ('olho preto') AND equimoses da conjuntiva AND manchas que se prolongam", "then": "Ledum palustre" },
+      { "if": "Ocorrem espontaneamente no curso de doença hematológica AND púrpura", "then": "Phosphorus" },
+      { "if": "Equimoses traumáticas em paciente alcoolodependente", "then": "Sulfuricum acidum" }
+    ]
+  },
+  {
+    "enfermidade": "Erisipela",
+    "entrada_primaria": "Inflamação dermoepidérmica aguda (estreptococo). Placa eritematosa edemaciada, luzidia, com bordos nítidos, febre elevada e calafrios.",
+    "seguranca": "A confiabilidade da prescrição aumenta ao considerar sintomas mentais, como sonhos de exercícios fatigantes.",
+    "diagnostico_diferencial": [
+      { "if": "Edema avermelhado AND pele distendida AND dores queimantes e picantes AND melhora por aplicações frias AND febre sem sede", "then": "Apis mellifica" },
+      { "if": "Pele brilhante, vermelha e distendida AND febre elevada com midríase, sede e delírio", "then": "Belladonna" },
+      { "if": "Ocorre sobre pele violácea AND febre com delírio loquaz AND localização preferencial sobre úlcera cutânea AND ondas de calor com falta de ar", "then": "Lachesis mutus" },
+      { "if": "Vesículas pruriginosas com aréola vermelha sobre pele edemaciada AND triângulo vermelho e liso na ponta da língua AND febre com agitação física AND sonhos com exercícios fatigantes", "then": "Rhus toxicodendron" },
+      { "if": "Caso grave de aspecto gangrenoso AND febre com agitação e esgotamento", "then": "Arsenicum album" },
+      { "if": "Grandes vesículas semelhantes a queimadura AND prurido e queimação", "then": "Cantharis" },
+      { "if": "Evolução para septicemia", "then": "Echinacea angustifolia" },
+      { "if": "Erisipela de repetição AND recidiva durante as regras", "then": "Graphites" },
+      { "if": "Pele vermelha AND hipersensibilidade ao toque e ao ar frio", "then": "Hepar sulfuris calcareum" },
+      { "if": "Medicamento de fundo para erisipela de repetição AND migrante", "then": "Sulfur" }
+    ]
+  },
+  {
+    "enfermidade": "Eritema Nodoso",
+    "entrada_primaria": "Doença inflamatória com nódulos sensíveis bilaterais (pernas, coxas e braços), febre e artralgias.",
+    "seguranca": "O aspecto violáceo é um sintoma discriminativo importante.",
+    "diagnostico_diferencial": [
+      { "if": "Manchas rosadas e duras", "then": "Apis mellifica" },
+      { "if": "Manchas violáceas", "then": "Lachesis mutus" },
+      { "if": "Indurações azuladas", "then": "Phosphorus" },
+      { "if": "Evolução para aspecto vesicular", "then": "Rhus toxicodendron" },
+      { "if": "Manchas vermelhas AND dores em queimação que melhoram pelo frio", "then": "Sulfur" }
+    ]
+  },
+  {
+    "enfermidade": "Escarlatina",
+    "entrada_primaria": "Febre eruptiva (estreptococo). Início brusco com calafrios, enantema bucal, língua framboesa e exantema escarlate.",
+    "seguranca": "Belladonna é o principal preventivo no contágio; tratamento curativo homeopático é apenas complementar ao clássico.",
+    "diagnostico_diferencial": [
+      { "if": "Forma grave AND exantema e enantema de cor púrpura AND língua fissurada AND hálito fétido AND adenopatias cervicais AND sonolência", "then": "Ailanthus glandulosa" },
+      { "if": "Forma grave AND enantema vermelho escuro AND evolução para ulceração das amígdalas AND nariz entupido à noite", "then": "Ammonium carbonicum" },
+      { "if": "Exantema vermelho vivo liso AND enantema vermelho AND língua framboesa AND disfagia AND febre com sede AND preventivo no contágio", "then": "Belladonna" },
+      { "if": "Exantema granuloso e pálido AND enantema rosado AND garganta edemaciada AND febre sem sede AND albuminúria", "then": "Apis mellifica" },
+      { "if": "Forma grave com petéquias, febre e agitação AND útil na fase de descamação AND complicação de nefrite", "then": "Arsenicum album" },
+      { "if": "Forma grave com formigamentos intoleráveis nos lábios (paciente esfrega até sangrar)", "then": "Arum triphyllum" },
+      { "if": "Forma grave com equimoses AND garganta violácea AND disfagia", "then": "Lachesis mutus" },
+      { "if": "Forma grave com triângulo vermelho e liso na ponta da língua", "then": "Rhus toxicodendron" },
+      { "if": "Exantema custa a sair AND complicações encefálicas AND estupor", "then": "Zincum metallicum" }
+    ]
+  },
+  {
+    "enfermidade": "Esclerose em Placas",
+    "entrada_primaria": "Doença inflamatória crônica da mielina. Sinais: neurite óptica, parestesias, vertigens, transtornos do andar e sinal de Lhermitte.",
+    "seguranca": "Homeopatia é útil apenas em formas hebefrênicas iniciantes ('border-line'); as remissões espontâneas da doença podem causar falsos sucessos.",
+    "diagnostico_diferencial": [
+      { "if": "Marcha 'embriagada' e precipitada AND tremores AND alargamento do polígono de sustentação", "then": "Argentum nitricum" },
+      { "if": "Paresia esfincteriana", "then": "Causticum" },
+      { "if": "Medicamento de fundo típico de doenças auto-imunes", "then": "Natrum muriaticum" },
+      { "if": "Neurite óptica AND sensação de queimação AND incoordenação motora", "then": "Phosphorus" },
+      { "if": "Neurite óptica AND paralisias com amiotrofia", "then": "Plumbum metallicum" },
+      { "if": "Incoordenação motora AND paralisia da micção e defecação AND queimação da raque (ferro quente) AND inchaço das nádegas ao sentar", "then": "Alumina" },
+      { "if": "Paresia e parestesia dos membros inferiores", "then": "Cocculus indicus" },
+      { "if": "Tremores da língua e membros AND nistagmo AND diplopia ao olhar lateralmente", "then": "Gelsemium sempervirens" },
+      { "if": "Paraplegia com hiper-refletividade AND marcha espástica AND sinal de Romberg positivo AND incontinência se micção retardada", "then": "Lathyrus sativus" },
+      { "if": "Início da esclerose AND hiperexcitabilidade medular", "then": "Nux vomica" },
+      { "if": "Paralisia de acomodação e das pálpebras", "then": "Physostigma venenosum" }
+    ]
+  },
+  {
+    "enfermidade": "Escoliose",
+    "entrada_primaria": "Desvio lateral da raque adquirido durante o crescimento.",
+    "seguranca": "A seleção do medicamento foca no desenvolvimento ósseo e não nos sintomas reacionais.",
+    "diagnostico_diferencial": [
+      { "if": "Recém-nascido ou lactente com atraso para falar e andar", "then": "Calcarea carbonica" },
+      { "if": "Importante deformação das vértebras AND tendência a exostoses AND hiperlaxidão ligamentar", "then": "Calcarea fluorica" },
+      { "if": "Paciente de grande altura", "then": "Calcarea phosphorica" },
+      { "if": "Paciente de pequena altura", "then": "Silicea" },
+      { "if": "Dores com sensação de ter sido espancado", "then": "Phosphoricum acidum" }
+    ]
+  },
+  {
+    "enfermidade": "Espasmo do Choro",
+    "entrada_primaria": "Síncope com apnéia e cianose na criança pequena após transtorno afetivo (queda, recusa de objeto, interrupção de brincadeira).",
+    "seguranca": "A chantagem e manipulação dos familiares são características cruciais para o diagnóstico de Ignatia.",
+    "diagnostico_diferencial": [
+      { "if": "Crise após contrariedade AND bloqueio da respiração AND suspiros ao retomar o fôlego AND chantagem/manipulação dos pais", "then": "Ignatia amara" },
+      { "if": "Espasmos ocorrem na época da dentição", "then": "Magnesia phosphorica" },
+      { "if": "Criança muito exuberante", "then": "Moschus" },
+      { "if": "Criança muito colérica", "then": "Nux vomica" }
+    ]
+  },
+  {
+    "enfermidade": "Espasmofilia",
+    "entrada_primaria": "Hiperexcitabilidade neuromuscular manifestada por crises de tetania (parestesias e 'mão de parteiro'), lipotimias e espasmos viscerais.",
+    "seguranca": "A crise é freqüentemente devida a alcalose ventilatória por ansiedade; buscar regulação metabólica (cálcio dinamizado).",
+    "diagnostico_diferencial": [
+      { "if": "Crises típicas com inchaço muscular doloroso AND lentidão movimentos AND paresia AND acrocontraturas AND disartria AND lentidão ideação", "then": "Cocculus indicus" },
+      { "if": "Necessidade de sal AND dificuldade de comunicação AND intelectualização dos problemas AND herpes AND agrava à beira-mar", "then": "Natrum muriaticum" },
+      { "if": "Astenia com palidez e olheiras AND ondas de calor emotivas AND hipotensão ortostática AND hipoglicemia AND desejo de chocolate AND herpes catamenial AND agrava à beira-mar", "then": "Sepia officinalis" },
+      { "if": "Dores tipo câimbra ou descarga elétrica AND sofre proporcionalmente à abundância do fluxo menstrual AND cefaléia explosiva", "then": "Actæa racemosa" },
+      { "if": "Medo da crise AND fobia de doenças", "then": "Argentum nitricum" },
+      { "if": "Espasmos violentos com polegar dobrado para dentro da mão AND câimbras", "then": "Cuprum metallicum" },
+      { "if": "Opressão respiratória após contrariedade AND tendência a forçar suspiros", "then": "Ignatia amara" },
+      { "if": "Cãibras melhora pelo calor e pressão forte", "then": "Magnesia phosphorica" },
+      { "if": "Bolo na garganta e opressão em quadro histérico teatral", "then": "Moschus" },
+      { "if": "Cãibras importantes AND paciente irritável e impaciente AND excesso de café e fumo AND língua suja na metade posterior", "then": "Nux vomica" },
+      { "if": "Angústia maior com ataque de pânico domina o quadro", "then": "Phosphorus" },
+      { "if": "Inchação, formigamento e câimbras de início/fim progressivo AND personagem altivo e elegante que despreza os outros", "then": "Platina" },
+      { "if": "Abalos musculares agrava sentado AND melhora marcha AND background histeróide", "then": "Valeriana officinalis" },
+      { "if": "Crises tipo formigamento com inquietação nos membros inferiores", "then": "Zincum metallicum" }
+    ]
+  },
+  {
+    "enfermidade": "Esquizofrenia",
+    "entrada_primaria": "Psicose crônica com dissociação da personalidade, delírio (místico, hipocondríaco ou perseguição) e fechamento em si mesmo.",
+    "seguranca": "A homeopatia presta serviços apenas em formas hebefrênicas iniciantes ('border-line').",
+    "diagnostico_diferencial": [
+      { "if": "Desdobramento da personalidade com conflito interno insuportável AND impressão de estar separado do mundo", "then": "Anacardium orientale" },
+      { "if": "Principal medicamento de fundo para descompensação esquizofrênica", "then": "Natrum muriaticum" },
+      { "if": "Útil nas fases de apatia e catatonia", "then": "Phosphoricum acidum" },
+      { "if": "Crise de angústia maior AND dismorfofobia AND necessidade de estar no escuro AND vontade de ficar nu AND sensação de estar despedaçado AND interesse por misticismo", "then": "Phosphorus" },
+      { "if": "Excitação violenta AND delírio religioso AND olhar fixo com olhos esbugalhados", "then": "Stramonium" },
+      { "if": "Bioterápico para estabilizar o resultado obtido", "then": "Tuberculinum" },
+      { "if": "Delírio tranqüilo erótico ou querelante", "then": "Hyoscyamus niger" },
+      { "if": "Agitação estereotipada", "then": "Kalium bromatum" },
+      { "if": "Fases agressivas AND paciente joga objetos nos familiares", "then": "Staphysagria" }
+    ]
+  },
+  {
+    "enfermidade": "Estrófulo",
+    "entrada_primaria": "Dermatose pruriginosa da primeira infância. Pápulas rosadas com pequena vesícula central.",
+    "seguranca": "Pode ser útil comparar medicamentos por seus agentes ativos (ex: urushiol no Rhus tox e Anacardium).",
+    "diagnostico_diferencial": [
+      { "if": "Vesículas pruriginosas", "then": "Rhus toxicodendron" },
+      { "if": "Medicamento útil para encerrar o caso", "then": "Sulfur iodatum" },
+      { "if": "Erupção assemelha-se a picadas de insetos", "then": "Ledum palustre" },
+      { "if": "Pequenas vesículas pruriginosas", "then": "Rhus venenata" }
+    ]
+  },
+  {
+    "enfermidade": "Extra-sístoles",
+    "entrada_primaria": "Contrações cardíacas de descarga elétrica proveniente de foco ectópico. Palpitações (percepção subjetiva).",
+    "seguranca": "A patologia funcional, subjetiva e reversível, é o alvo ideal para a homeopatia.",
+    "diagnostico_diferencial": [
+      { "if": "Palpitações violentas e repentinas AND pulso duro e rápido AND dor precordial irradiada ao membro superior ESQUERDO AND falsa angina AND crise súbita de HTA ('jaleco branco') AND medo de morrer com agitação", "then": "Aconitum napellus" },
+      { "if": "Ligada a HTA orgânica AND hipertrofia cardíaca AND sensação de parada AND angor AND ondas de calor no rosto AND melancolia com tendência suicida", "then": "Aurum metallicum" },
+      { "if": "Violentas provocadas por emoções alegres AND abundância de ideias AND insônia", "then": "Coffea cruda" },
+      { "if": "Coração hipertrofiado porém fraco AND agrava ao menor exercício AND agrava deitado sobre o Lado ESQUERDO", "then": "Cratægus oxyacantha" },
+      { "if": "Pulso lento, fraco e irregular AND sensação de parada do coração agrava ao menor movimento (fica imóvel) AND dor após o coito", "then": "Digitalis purpurea" },
+      { "if": "Sensação de parada se NÃO se mexe AND agrava se pensa nisso AND pulso lento AND embotamento AND deseja ficar só", "then": "Gelsemium sempervirens" },
+      { "if": "Face vermelha escura AND batimento das carótidas AND calor do coração que propaga para cabeça e corpo AND após insolação", "then": "Glonoimum" },
+      { "if": "No curso de pericardite reumática AND dor irradia braço ESQUERDO AND pulso lento AND agrava inclinado para frente", "then": "Kalmia latifolia" },
+      { "if": "No curso da menopausa AND coração parece grande demais AND sufocação ao adormecer AND bochechas violáceas AND melhora por regras/hemorragias", "then": "Lachesis mutus" },
+      { "if": "No curso de doença uterina ou gestação AND coração cheio de sangue/em torno/tremor AND batimento de asas após emoção AND melhora se urinar/vomitar", "then": "Lilium tigrinum" },
+      { "if": "Origem digestiva AND ocorre durante a digestão AND acompanhada de HTA", "then": "Lycopodium clavatum" },
+      { "if": "Coração fraco e tumultuoso AND pulso rápido/irregular AND taquicardia no hipertireoidismo AND agrava emoções", "then": "Lycopus virginicus" },
+      { "if": "Lesão valvular com sopro AND palpitações impedem de falar AND pulso lento AND agrava deitado Lado ESQUERDO e pelo vinho", "then": "Naja tripudians" },
+      { "if": "Angústia maior ou pânico AND percepção consciente dos contornos do coração AND queimação/calor no coração AND hipertrofia DIREITA AND agrava deitado Lado ESQUERDO AND melhora deitado Lado DIREITO", "then": "Phosphorus" },
+      { "if": "Batimentos elevam a roupa (visíveis/audíveis) AND ligada a verminose AND tremor do coração AND dor irradia membro superior (especialmente ESQUERDO) AND agrava inspiração profunda ou sentado inclinado frente", "then": "Spigelia anthelmia" },
+      { "if": "Melhora por pressão das mãos no coração AND agrava emoções/esforço AND agrava deitado Lado DIREITO AND associada a hérnia de hiato", "then": "Argentum nitricum" },
+      { "if": "Sensação de mão de ferro em torno do coração AND dor braço ESQUERDO AND pulso fraco AND hipotensão AND angor", "then": "Cactus grandiflorus" },
+      { "if": "Ligadas a distensão do estômago AND melhora por eructações", "then": "Carbo vegetabilis" },
+      { "if": "Provocadas por contrariedade/emoção AND constrição no peito AND opressão nervosa AND paciente suspira", "then": "Ignatia amara" },
+      { "if": "Ao menor exercício AND sensação de coração em um torno AND magreza apesar de comer bem AND intolerância ao calor", "then": "Iodum" },
+      { "if": "Pulso fraco mas rápido AND coração suspenso por um fio AND membros inferiores parecem ceder AND suor abundante AND após doença grave", "then": "Kalium carbonicum" },
+      { "if": "Sentidas em todo o corpo AND por ruídos estranhos AND sensação de frio no coração AND asa de pássaro batendo no Lado ESQUERDO AND medicamento do hipertireoidismo", "then": "Natrum muriaticum" },
+      { "if": "Atletas após excesso de treino AND agrava sentado AND melhora ao mexer-se", "then": "Rhus toxicodendron" },
+      { "if": "Propagam até a garganta AND tosse de cachorro AND calor na garganta AND coração grande AND agrava antes das regras", "then": "Spongia tosta" },
+      { "if": "Com HTA AND ondas de calor AND pletórico e jovial AND gosta de açúcar/álcool/gordura", "then": "Sulfur" }
+    ]
+  }
+]
