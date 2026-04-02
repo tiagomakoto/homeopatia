@@ -36,7 +36,7 @@ app.add_middleware(
 
 # Carregar o banco de dados JSON (o arquivo que você me enviou)
 def load_db():
-    with open(DATA_FILE, 'r', encoding='utf-16') as f:
+    with open(DATA_FILE, 'r', encoding='utf-8') as f:
         return json.load(f)
 
 db_homeopatia = load_db()
